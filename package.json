@@ -66,6 +66,10 @@
       {
         "command": "extension.addAngularNativeFilesExtended",
         "title": "Add Angular Native Files (Extended)"
+      },
+      {
+        "command": "extension.addVuePage",
+        "title": "Add Vue Files"
       }
     ],
     "menus": {
@@ -79,6 +83,11 @@
           "when": "",
           "command": "extension.addAngularNativeFilesExtended",
           "group": "Add Files"
+        },
+        {
+          "when": "",
+          "command": "extension.addVuePage",
+          "group": "Add Vue Files"
         }
       ]
     }

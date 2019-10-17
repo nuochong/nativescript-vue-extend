@@ -2,7 +2,7 @@
   "name": "nativescript-vue-extend",
   "displayName": "nativescript-vue-extend",
   "description": "Snippets for NativeScript Vue",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "publisher": "nuochong",
   "icon": "img/logo.png",
   "engines": {
@@ -12,9 +12,10 @@
     "Snippets"
   ],
   "scripts": {
-    "vscode:prepublish": "tsc -p ./",
-    "compile": "tsc -watch -p ./",
-    "postinstall": "node ./node_modules/vscode/bin/install"
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "publish": "npm run vscode:prepublish &&  vsce publish"
   },
   "activationEvents": [
     "*"
@@ -52,41 +53,35 @@
     ],
     "commands": [
       {
-        "command": "extension.addPage",
-        "title": "Add NativeScript Page"
+        "command": "extension.addAngularNativeFiles",
+        "title": "Add Angular Native Files"
       },
       {
-        "command": "extension.addComponent",
-        "title": "Add NativeScript Component"
+        "command": "extension.addAngularNativeFilesExtended",
+        "title": "Add Angular Native Files (Extended)"
       }
     ],
     "menus": {
       "explorer/context": [
         {
           "when": "",
-          "command": "extension.addPage",
+          "command": "extension.addAngularNativeFiles",
           "group": "Add Files"
         },
         {
           "when": "",
-          "command": "extension.addComponent",
+          "command": "extension.addAngularNativeFilesExtended",
           "group": "Add Files"
         }
       ]
     }
   },
   "devDependencies": {
-    "typescript": "^2.0.3",
-    "vscode": "^1.1.0",
-    "rimraf": "2.6.1",
-    "mocha": "^2.3.3",
-    "@types/node": "^6.0.40",
-    "@types/mocha": "^2.2.32",
-    "@types/q": "^1.0.0",
-    "@types/rimraf": "0.0.28"
+    "typescript": "^1.8.5",
+    "rimraf": "^2.4.4",
+    "vscode": "^0.11.0"
   },
   "dependencies": {
-    "q": "^1.4.1",
-    "path": "^0.12.7"
+    "q": "^1.4.1"
   }
 }

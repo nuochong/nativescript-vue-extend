@@ -1,80 +1,103 @@
 export class FileContents {
+  private camelCase(input: string): string {
+    return input.replace(/-([a-z])/gi, function(all, letter) {
+      return letter.toUpperCase();
+    });
+  }
 
-    private camelCase (input: string): string {
-        return input.replace( /-([a-z])/ig, function( all, letter ) {
-            return letter.toUpperCase();
-        });
-    }
+  public componentContent(inputName: string): string {
+    var inputUpperCase: string;
+    inputUpperCase = inputName.charAt(0).toUpperCase() + inputName.slice(1);
+    inputUpperCase = this.camelCase(inputUpperCase);
 
-    public pageContent(inputName: string): string {
-        var inputUpperCase: string = this.inputToUpperCase(inputName);
-        var pageContent: string = `<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">\n` +
-            `<Page.actionBar>\n` +
-            `\t<ActionBar title="${inputUpperCase} Page" icon="" class="action-bar">\n` +
-            `\t\t</ActionBar>\n` +
-            `\t</Page.actionBar>\n` +
-            `\t<Label class="${inputName}-page" text="${inputUpperCase} Page!"/>\n` +
-            `</Page>`;
-        return pageContent;
-    }
+    var componentContent: string =
+      "import { Component, OnInit } from '@angular/core';\n" +
+      '\n' +
+      '@Component({\n' +
+      '\tmoduleId: module.id,\n' +
+      "\tselector: '" +
+      inputName +
+      "',\n" +
+      "\ttemplateUrl: './" +
+      inputName +
+      ".component.html',\n" +
+      "\tstyleUrls: ['./" +
+      inputName +
+      ".component.css']\n" +
+      '})\n' +
+      '\n' +
+      'export class ' +
+      inputUpperCase +
+      'Component implements OnInit {\n' +
+      '\n' +
+      '\tconstructor() { }\n' +
+      '\n' +
+      '\tngOnInit() { }\n' +
+      '}';
+    return componentContent;
+  }
 
-    public pageCodeContent(inputName: string): string {
-        var inputUpperCase: string = this.inputToUpperCase(inputName);
-        var pageCodeContent: string = `import { EventData } from 'data/observable';\n` +
-            `import { Page } from 'ui/page';\n` +
-            `import { ${inputUpperCase}ViewModel } from './${inputName}-view-model';\n` +
-            `\n` +
-            `export function navigatingTo(args: EventData) {\n` +
-            `\tlet page = <Page>args.object;\n` +
-            `\tpage.bindingContext = new ${inputUpperCase}ViewModel();\n` +
-            `}`;
-        return pageCodeContent;
-    }
+  public templateContent(inputName: string): string {
+    var inputUpperCase: string;
+    inputUpperCase = inputName.charAt(0).toUpperCase() + inputName.slice(1);
+    inputUpperCase = this.camelCase(inputUpperCase);
+    var templateContent: string = `<Label class="${inputName}" text="Hello ${inputUpperCase}Component!"></Label>`;
+    return templateContent;
+  }
 
-    public viewModelContent(inputName: string): string {
-        var inputUpperCase: string = this.inputToUpperCase(inputName);
-        var viewModelContent: string = `import {Observable} from 'data/observable';\n` +
-            `\n` +
-            `export class ${inputUpperCase}ViewModel extends Observable {\n` +
-            `\n` +
-            `\tconstructor() {\n` +
-                `\t\tsuper();\n` +
-                `\n` +
-            `\t}\n` +
-            `\n` +
-            `}`;     
-        return viewModelContent;
-    }
+  public cssContent(inputName: string): string {
+    var inputUpperCase: string =
+      inputName.charAt(0).toUpperCase() + inputName.slice(1);
+    var cssContent: string = `.${inputName} {\n\n}`;
+    return cssContent;
+  }
 
-    public componentContent(inputName: string): string {
-        var inputUpperCase: string = this.inputToUpperCase(inputName);
-        var componentContent: string = `\n` + 
-            `<!-- http://moduscreate.com/custom-components-in-nativescript/ -->\n` +
-            `\n` +
-            `<Label class="${inputName}-component" loaded="onLoaded" text="${inputUpperCase} Component!"/>`;
-        return componentContent;
-    }
+  public specContent(inputName: string): string {
+    var inputUpperCase: string;
+    inputUpperCase = inputName.charAt(0).toUpperCase() + inputName.slice(1);
+    inputUpperCase = this.camelCase(inputUpperCase);
 
-    public componentCodeContent(inputName: string): string {
-        var inputUpperCase: string = this.inputToUpperCase(inputName);
-        var componentCodeContent: string = `import { EventData } from 'data/observable'\n` +
-            `\n` +
-            `// http://moduscreate.com/custom-components-in-nativescript/\n` +
-            `\n` +
-            `export function onLoaded(args: EventData) {\n` +
-             `\tvar label = args.object;\n` +
-             `}`;
-        return componentCodeContent;
-    }
-
-    public cssContent(inputName: string, fileName: string): string {
-        var cssContent: string = `.${inputName}-${fileName} {\n\n}`;
-        return cssContent;
-    }
-
-    inputToUpperCase(inputName: string): string {
-        var inputUpperCase: string;       
-        inputUpperCase = inputName.charAt(0).toUpperCase() + inputName.slice(1);
-        return this.camelCase(inputUpperCase);
-    }
+    var specContent: string =
+      "import { TestBed, inject } from '@angular/core/testing';\n\n" +
+      'import { ' +
+      inputUpperCase +
+      "Component } from './" +
+      inputName +
+      ".component';\n" +
+      '\n' +
+      "describe('a " +
+      inputName +
+      " component', () => {\n" +
+      '\tlet component: ' +
+      inputUpperCase +
+      'Component;\n' +
+      '\n' +
+      '\t// register all needed dependencies\n' +
+      '\tbeforeEach(() => {\n' +
+      '\t\tTestBed.configureTestingModule({\n' +
+      '\t\t\tproviders: [\n' +
+      '\t\t\t\t' +
+      inputUpperCase +
+      'Component\n' +
+      '\t\t\t]\n' +
+      '\t\t});\n' +
+      '\t});\n' +
+      '\n' +
+      '\t// instantiation through framework injection\n' +
+      '\tbeforeEach(inject([' +
+      inputUpperCase +
+      'Component], (' +
+      inputUpperCase +
+      'Component) => {\n' +
+      '\t\tcomponent = ' +
+      inputUpperCase +
+      'Component;\n' +
+      '\t}));\n' +
+      '\n' +
+      "\tit('should have an instance', () => {\n" +
+      '\t\texpect(component).toBeDefined();\n' +
+      '\t});\n' +
+      '});';
+    return specContent;
+  }
 }

@@ -125,8 +125,12 @@ export class AddFilesVue {
   // 在编辑器中打开创建的组件
   public openFileInEditor(folderName): Q.Promise<TextEditor> {
     const deferred: Q.Deferred<TextEditor> = Q.defer<TextEditor>();
-    var inputName: string = path.parse(folderName).name;;
-    var fullFilePath: string = path.join(folderName, `${inputName}.component.ts`);
+    // var inputName: string = path.parse(folderName).name;;
+    var pathParse = path.parse(folderName);
+    var pathDir: string = pathParse.dir;
+    var inputName: string = pathParse.name;
+    // var fullFilePath: string = path.join(folderName, `${inputName}.component.ts`);
+    var fullFilePath: string = path.join(pathDir, `${inputName}.vue`);
 
     workspace.openTextDocument(fullFilePath).then((textDocument) => {
       if (!textDocument) { return; }

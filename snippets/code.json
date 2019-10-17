@@ -1,0 +1,101 @@
+{
+	"{N} app import": {
+		"prefix": "nsapp",
+		"body": [
+			"import * as app from 'tns-core-modules/application';",
+      "$0"
+		],
+		"description": "isIOS import sentence"
+	},
+  "{N} Vue instance": {
+		"prefix": "nsvue",
+		"body": [
+			"export default {",
+      "  data () {",
+      "    return {};",
+      "  },",
+      "  methods: {",
+      "  }",
+      "};"
+		],
+		"description": "Vue instance object"
+	},
+	"{N} HTTP fetch": {
+		"prefix": "nsfetch",
+		"body": [
+			"import { fetch } from 'tns-core-modules/fetch';",
+			"fetch('$1')",
+      "  .then((response) => {",
+      "  })",
+      "  .catch((error) => {",
+      "    console.error(error);",
+      "  });"
+		],
+		"description": "Fetch sentence for getting results"
+	},
+	"{N} isAndroid import": {
+		"prefix": "nsisandroid",
+		"body": [
+			"import { isAndroid } from 'tns-core-modules/platform';",
+      "$0"
+		],
+		"description": "isAndroid import sentence"
+	},
+	"{N} isIOS import": {
+		"prefix": "nsisios",
+		"body": [
+			"import { isIOS } from 'tns-core-modules/platform';",
+      "$0"
+		],
+		"description": "isIOS import sentence"
+	},
+	"{N} launchEvent": {
+		"prefix": "nslaunchevent",
+		"body": [
+			"import * as app from 'tns-core-modules/application';",
+      "",
+      "app.on(app.launchEvent, ({ android, ios }) => {",
+      "  if (android) {",
+      "    console.log(`Launched Android app with the following intent: ${android}`);",
+      "  } else if (ios !== undefined) {",
+      "    console.log(`Launched iOS application with options: ${ios}`);",
+      "  }",
+      "});",
+      "$0"
+		],
+		"description": "launchEvent block"
+	},
+	"{N}-vue $navigateTo": {
+		"prefix": "nsnavigate",
+		"body": [
+			"this.$$navigateTo($1);",
+      "$0"
+		],
+		"description": "Navigate to another page using {N}-vue"
+	},
+	"{N}-vue register component": {
+		"prefix": "nsvuecomponent",
+		"body": [
+			"Vue.component($1, $2)",
+      "$0"
+		],
+		"description": "Register a component in {N}-vue"
+  },
+	"{N} http module import": {
+		"prefix": "nshttp",
+		"body": [
+			"import * as http from 'tns-core-modules/http';",
+      "$0"
+		],
+		"description": "Import the {N} http module"
+  },
+  "{N} navigate back": {
+		"prefix": "nsnavigateback",
+		"body": [
+      "import * as frameModule from 'tns-core-modules/ui/frame';",
+      "frameModule.topmost().goBack();",
+      "$0"
+		],
+		"description": "Navigate back to the previous page"
+  }
+}

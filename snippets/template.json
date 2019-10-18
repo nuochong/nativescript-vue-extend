@@ -1,6 +1,6 @@
 {
   // Action Bar
-  "{N}-vue Action Bar": {
+  "{NSVue} Action Bar": {
     "prefix": "nsactionbar",
     "body": [
       "<ActionBar title=\"${1:Title}\" icon=\"\">",
@@ -11,7 +11,7 @@
     ]
   },
   // Layouts
-  "{N}-vue Stack Layout": {
+  "{NSVue} Stack Layout": {
     "prefix": "nsstack",
     "body": [
       "<StackLayout>",
@@ -20,7 +20,7 @@
     ],
     "description": "The StackLayout stacks its child elements below or beside each other, depending on its orientation. It is very useful to create lists."
   },
-  "{N}-vue Flexbox Layout": {
+  "{NSVue} Flexbox Layout": {
     "prefix": "nsflex",
     "body": [
       "<FlexboxLayout>",
@@ -29,7 +29,7 @@
     ],
     "description": "The FlexboxLayout is a non-conforming implementation of the CSS Flexible Box Layout based on an existing Apache-2 licensed flexbox implementation hosted on github.com/google/flexbox-layout."
   },
-  "{N}-vue Stack Layout Horizontal": {
+  "{NSVue} Stack Layout Horizontal": {
     "prefix": "nsstack_horizontal",
     "body": [
       "<StackLayout orientation=\"horizontal\">",
@@ -38,7 +38,7 @@
     ],
     "description": "The StackLayout stacks its child elements below or beside each other, depending on its orientation. It is very useful to create lists."
   },
-  "{N}-vue Wrap Layout": {
+  "{NSVue} Wrap Layout": {
     "prefix": "nswrap",
     "body": [
       "<WrapLayout orientation=\"horizontal\" itemWidth=\"$1\" itemHeight=\"$2\">",
@@ -46,7 +46,7 @@
       "</WrapLayout>"
     ]
   },
-  "{N}-vue Absolute Layout": {
+  "{NSVue} Absolute Layout": {
     "prefix": "nsabsolute",
     "body": [
       "<AbsoluteLayout>",
@@ -56,7 +56,7 @@
     ],
     "description": "The AbsoluteLayout is the simplest layout in NativeScript. It uses absolute left-top coordinates to position its children. The AbsoluteLayout will not enforce any layout coNStraints on its children and will not resize them at runtime when its size changes"
   },
-  "{N}-vue Dock Layout": {
+  "{NSVue} Dock Layout": {
     "prefix": "nsdock",
     "body": [
       "<DockLayout stretchLastChild=\"true\">",
@@ -65,7 +65,7 @@
     ],
     "description": "The DockLayout is a layout that provides a docking mechanism for child elements to the left, right, top, bottom or center of the layout. To define the docking side of a child element, use its dock property. To dock a child element to the center of the DockLayout, it must be the last child of the DockLayout and the stretchLastChild property of the DockLayout must be set to true."
   },
-  "{N}-vue Grid Layout": {
+  "{NSVue} Grid Layout": {
     "prefix": "nsgrid",
     "body": [
       "<GridLayout rows=\"$1\" columns=\"$2\">",
@@ -73,7 +73,7 @@
       "</GridLayout>"
     ]
   },
-  "{N}-vue Grid Layout 2x2": {
+  "{NSVue} Grid Layout 2x2": {
     "prefix": "nsgrid_2x2",
     "body": [
       "<GridLayout rows=\"*, *\" columns=\"*, *\">",
@@ -84,7 +84,7 @@
       "</GridLayout>"
     ]
   },
-  "{N}-vue Grid Layout 2x2 Automatic Width/Height": {
+  "{NSVue} Grid Layout 2x2 Automatic Width/Height": {
     "prefix": "nsgrid_2x2_auto",
     "body": [
       "<GridLayout rows=\"auto, auto\" columns=\"auto, auto\">",
@@ -95,7 +95,7 @@
       "</GridLayout>"
     ]
   },
-  "{N}-vue Grid Layout 3x3 ": {
+  "{NSVue} Grid Layout 3x3 ": {
     "prefix": "nsgrid_3x3",
     "body": [
       "<GridLayout rows=\"*, *, *\" columns=\"*, *, *\">",
@@ -111,7 +111,7 @@
       "</GridLayout>"
     ]
   },
-  "{N}-vue Grid Layout 3x3 Automatic Width/Height": {
+  "{NSVue} Grid Layout 3x3 Automatic Width/Height": {
     "prefix": "nsgrid_3x3_auto",
     "body": [
       "<GridLayout rows=\"auto, auto, auto\" columns=\"auto, auto, auto\">",
@@ -127,7 +127,7 @@
       "</GridLayout>"
     ]
   },
-  "{N}-vue Grid Layout 4x3 ": {
+  "{NSVue} Grid Layout 4x3 ": {
     "prefix": "nsgrid_4x3",
     "body": [
       "<GridLayout rows=\"*, *, *, *\" columns=\"*, *, *\">",
@@ -146,7 +146,7 @@
       "</GridLayout>"
     ]
   },
-  "{N}-vue Grid Layout 4x3 Automatic Width/Height": {
+  "{NSVue} Grid Layout 4x3 Automatic Width/Height": {
     "prefix": "nsgrid_4x3_auto",
     "body": [
       "<GridLayout rows=\"auto, auto, auto, auto\" columns=\"auto, auto, auto\">",
@@ -165,7 +165,7 @@
       "</GridLayout>"
     ]
   },
-  "{N}-vue Grid Layout 4x4": {
+  "{NSVue} Grid Layout 4x4": {
     "prefix": "nsgrid_4x4",
     "body": [
       "<GridLayout rows=\"*, *, *, *\" columns=\"*, *, *, *\">",
@@ -188,7 +188,7 @@
       "</GridLayout>"
     ]
   },
-  "{N}-vue Grid Layout 4x4 Automatic Width/Height": {
+  "{NSVue} Grid Layout 4x4 Automatic Width/Height": {
     "prefix": "nsgrid_4x4_auto",
     "body": [
       "<GridLayout rows=\"auto, auto, auto, auto\" columns=\"auto, auto, auto, auto\">",
@@ -212,7 +212,7 @@
     ]
   },
   // Views
-  "{N}-vue Scroll View": {
+  "{NSVue} Scroll View": {
     "prefix": "nsscrollview",
     "body": [
       "<ScrollView>",
@@ -220,7 +220,7 @@
       "</ScrollView>"
     ]
   },
-  "{N}-vue List View": {
+  "{NSVue} List View": {
     "prefix": "nslistview",
     "body": [
       "<ListView for=\"item in ${1:items}\" @itemTap=\"onItemTap\">",
@@ -232,7 +232,7 @@
       "</ListView>"
     ]
   },
-  "{N}-vue Tab View": {
+  "{NSVue} Tab View": {
     "prefix": "nstabview",
     "body": [
       "<TabView :selectedIndex=\"${1:tabIndex}\">",
@@ -250,14 +250,14 @@
       "$0"
     ]
   },
-  "{N}-vue Web View": {
+  "{NSVue} Web View": {
     "prefix": "nswebview",
     "body": [
       "<WebView :src=\"someUrl | pathToLocalFile | htmlString\" />",
       "$0"
     ]
   },
-  "{N}-vue Repeater": {
+  "{NSVue} Repeater": {
     "prefix": "nsrepeater",
     "body": [
       "<Repeater items=\"{{  }}\">",
@@ -271,7 +271,7 @@
     ]
   },
   // Widgets
-  "{N}-vue Page": {
+  "{NSVue} Page": {
     "prefix": "nspage",
     "body": [
       "<Page>",
@@ -279,14 +279,14 @@
       "</Page>"
     ]
   },
-  "{N}-vue Image": {
+  "{NSVue} Image": {
     "prefix": "nsimg",
     "body": [
       "<Image :src=\"$1\" stretch=\"none\" />",
       "$0"
     ]
   },
-  "{N}-vue BottomNavigation": {
+  "{NSVue} BottomNavigation": {
     "prefix": "nsbottomnav",
     "body": [
       "<BottomNavigation selectedIndex=\"1\">",
@@ -295,7 +295,7 @@
       ""
     ]
   },
-  "{N}-vue TabStrip": {
+  "{NSVue} TabStrip": {
     "prefix": "NSTabStrip",
     "body": [
       "<TabStrip>",
@@ -304,7 +304,7 @@
       ""
     ]
   },
-  "{N}-vue TabStripItem": {
+  "{NSVue} TabStripItem": {
     "prefix": "NSTabStripItem",
     "body": [
       "<TabStripItem>",
@@ -313,7 +313,7 @@
       "</TabStripItem>"
     ]
   },
-  "{N}-vue TabContentItem": {
+  "{NSVue} TabContentItem": {
     "prefix": "NSTabContentItem",
     "body": [
       "<TabContentItem>",
@@ -321,105 +321,105 @@
       "</TabContentItem>"
     ]
   },
-  "{N}-vue Label": {
+  "{NSVue} Label": {
     "prefix": "nslabel",
     "body": [
       "<Label text=\"$1\" textWrap=\"true\" />",
       "$0"
     ]
   },
-  "{N}-vue Button": {
+  "{NSVue} Button": {
     "prefix": "nsbtn",
     "body": [
       "<Button text=\"$1\" @tap=\"$2\" />",
       "$0"
     ]
   },
-  "{N}-vue Text Field": {
+  "{NSVue} Text Field": {
     "prefix": "nstextfield",
     "body": [
       "<TextField hint=\"$1\" text=\"{{ $2 }}\" />",
       "$0"
     ]
   },
-  "{N}-vue Password Field": {
+  "{NSVue} Password Field": {
     "prefix": "nspassword",
     "body": [
       "<TextField hint=\"Enter your password.\" text=\"${1:Password}\" secure=\"true\" />",
       "$0"
     ]
   },
-  "{N}-vue Editable TextView": {
+  "{NSVue} Editable TextView": {
     "prefix": "nstextview_editable",
     "body": [
       "<TextView hint=\"$1\" text=\"{{ $2 }}\" editable=\"true\" />",
       "$0"
     ]
   },
-  "{N}-vue Non-Editable TextView": {
+  "{NSVue} Non-Editable TextView": {
     "prefix": "nstextview_non-editable",
     "body": [
       "<TextView text=\"$1\" editable=\"false\" />",
       "$0"
     ]
   },
-  "{N}-vue SearchBar": {
+  "{NSVue} SearchBar": {
     "prefix": "nssearchbar",
     "body": [
       "<SearchBar id=\"${1:searchBar}\" hint=\"${2:Search}\" text=\"$3\" clear=\"${4:onClear}\" submit=\"${5:onSubmit}\" />",
       "$6"
     ]
   },
-  "{N}-vue Switch": {
+  "{NSVue} Switch": {
     "prefix": "nsswitch",
     "body": [
       "<Switch checked=\"$1\" />",
       "$0"
     ]
   },
-  "{N}-vue Progress Bar": {
+  "{NSVue} Progress Bar": {
     "prefix": "nsprogress",
     "body": [
       "<Progress value=\"$1\" />",
       "$0"
     ]
   },
-  "{N}-vue Slider": {
+  "{NSVue} Slider": {
     "prefix": "nsslider",
     "body": [
       "<Slider minValue=\"$1\" maxValue=\"$2\" value=\"{{ $3 }}\" />",
       "$0"
     ]
   },
-  "{N}-vue Date Picker": {
+  "{NSVue} Date Picker": {
     "prefix": "nsdate",
     "body": [
       "<DatePicker day=\"$1\" month=\"$2\" year=\"$3\"></DatePicker>",
       "$0"
     ]
   },
-  "{N}-vue Time Picker": {
+  "{NSVue} Time Picker": {
     "prefix": "nstime",
     "body": [
       "<TimePicker hour=\"$1\" minute=\"$2\"></TimePicker>",
       "$0"
     ]
   },
-  "{N}-vue List Picker": {
+  "{NSVue} List Picker": {
     "prefix": "nslistpicker",
     "body": [
       "<ListPicker items=\"$1\" selectedIndex=\"$2\"></ListPicker>",
       "$0"
     ]
   },
-  "{N}-vue Activity Indicator": {
+  "{NSVue} Activity Indicator": {
     "prefix": "nsloading",
     "body": [
       "<ActivityIndicator width=\"100\" height=\"100\" busy=\"$1\" />",
       "$0"
     ]
   },
-  "{N}-vue Segmented Bar": {
+  "{NSVue} Segmented Bar": {
     "prefix": "nssegmentedbar",
     "body": [
       "<SegmentedBar selectedIndex=\"{{ selectedIndex }}\" @selectedIndexChange=\"$1\">",
@@ -430,7 +430,7 @@
       "</SegmentedBar>"
     ]
   },
-  "{N}-vue Border": {
+  "{NSVue} Border": {
     "prefix": "nsborder",
     "body": [
       "<Border borderRadius=\"$1\" borderWidth=\"$2\" borderColor=\"#000000\">",
@@ -438,285 +438,285 @@
       "</Border>"
     ]
   },
-  "{N}-vue Action Item": {
+  "{NSVue} Action Item": {
     "prefix": "NSactionItem",
     "body": [
       "<ActionItem tap=\"$0\"/>"
     ]
   },
-  "{N}-vue Navigation button": {
+  "{NSVue} Navigation button": {
     "prefix": "NSnavigationBtn",
     "body": [
       "<NavigationButton text=\"Go Back\" tap=\"onNavBtnTap\"/>"
     ]
   },
   // Attributes
-  "{N}-vue Icon Attribute": {
+  "{NSVue} Icon Attribute": {
     "prefix": "icon",
     "body": "icon=\"res://$1\"$0"
   },
-  "{N}-vue Text Wrap Attribute": {
+  "{NSVue} Text Wrap Attribute": {
     "prefix": "wrap",
     "body": "textWrap=\"true\"$0"
   },
-  "{N}-vue Horizontal Alignment Attribute": {
+  "{NSVue} Horizontal Alignment Attribute": {
     "prefix": "halign",
     "body": "horizontalAlignment=\"$1\"$0"
   },
-  "{N}-vue Vertical Alignment Attribute": {
+  "{NSVue} Vertical Alignment Attribute": {
     "prefix": "valign",
     "body": "verticalAlignment=\"$1\"$0"
   },
-  "{N}-vue Visibility Attribute": {
+  "{NSVue} Visibility Attribute": {
     "prefix": "visibility",
     "body": ":visibility=\"isItemVisible ? 'visible' : 'collapsed'\"$0"
   },
-  "{N}-vue Stretch Attribute": {
+  "{NSVue} Stretch Attribute": {
     "prefix": "stretch",
     "body": "stretch=\"fill$1\"$0"
   },
-  "{N}-vue Keyboard Type Attribute": {
+  "{NSVue} Keyboard Type Attribute": {
     "prefix": "kbtype",
     "body": "keyboardType=\"email$1\"$0"
   },
   // Attributes New
-  "{N}-vue Color Attribute": {
+  "{NSVue} Color Attribute": {
     "prefix": "color",
     "body": "color=\"\""
   },
-  "{N}-vue CSS Class Attribute": {
+  "{NSVue} CSS Class Attribute": {
     "prefix": "class",
     "body": "class=\"\""
   },
-  "{N}-vue Left Attribute": {
+  "{NSVue} Left Attribute": {
     "prefix": "left",
     "body": "left=\"\""
   },
-  "{N}-vue Right Attribute": {
+  "{NSVue} Right Attribute": {
     "prefix": "right",
     "body": "right=\"\""
   },
-  "{N}-vue Top Attribute": {
+  "{NSVue} Top Attribute": {
     "prefix": "top",
     "body": "top=\"\""
   },
-  "{N}-vue Bottom Attribute": {
+  "{NSVue} Bottom Attribute": {
     "prefix": "bottom",
     "body": "bottom=\"\""
   },
-  "{N}-vue Text Attribute": {
+  "{NSVue} Text Attribute": {
     "prefix": "text",
     "body": "text=\"\""
   },
-  "{N}-vue Margin Attribute": {
+  "{NSVue} Margin Attribute": {
     "prefix": "margin",
     "body": "margin=\"\""
   },
-  "{N}-vue Opacity Attribute": {
+  "{NSVue} Opacity Attribute": {
     "prefix": "opacity",
     "body": "opacity=\"\""
   },
-  "{N}-vue Background Color Attribute": {
+  "{NSVue} Background Color Attribute": {
     "prefix": "bgColor",
     "body": "backgroundColor=\"\""
   },
-  "{N}-vue Background Image Attribute": {
+  "{NSVue} Background Image Attribute": {
     "prefix": "bgImage",
     "body": "backgroundImage=\"\""
   },
-  "{N}-vue Border Color Attribute": {
+  "{NSVue} Border Color Attribute": {
     "prefix": "borderColor",
     "body": "borderColor=\"\""
   },
-  "{N}-vue Border Width Attribute": {
+  "{NSVue} Border Width Attribute": {
     "prefix": "borderWidth",
     "body": "borderWidth=\"\""
   },
-  "{N}-vue IOS Safe Area Attribute": {
+  "{NSVue} IOS Safe Area Attribute": {
     "prefix": "iosOverflowSafeArea",
     "body": "iosOverflowSafeArea=true"
   },
-  "{N}-vue Translate X Attribute": {
+  "{NSVue} Translate X Attribute": {
     "prefix": "translateX",
     "body": "translateX=\"\""
   },
-  "{N}-vue Translate Y Attribute": {
+  "{NSVue} Translate Y Attribute": {
     "prefix": "translateY",
     "body": "translateY=\"\""
   },
-  "{N}-vue Style Attribute": {
+  "{NSVue} Style Attribute": {
     "prefix": "style",
     "body": "style=\"\""
   },
-  "{N}-vue xmlns Attribute": {
+  "{NSVue} xmlns Attribute": {
     "prefix": "xmlns",
     "body": "xmlns:=\"\""
   },
-  "{N}-vue action Bar Hidden Attribute": {
+  "{NSVue} action Bar Hidden Attribute": {
     "prefix": "actionBarHidden",
     "body": "actionBarHidden=\"true\""
   },
-  "{N}-vue Width Attribute": {
+  "{NSVue} Width Attribute": {
     "prefix": "width",
     "body": "width=\"\"",
     "description": "Gets or sets the width used to measure and layout each child. Default value is Number.NaN, which does not restrict children."
   },
-  "{N}-vue Height Attribute": {
+  "{NSVue} Height Attribute": {
     "prefix": "height",
     "body": "height=\"\"",
     "description": "Gets or sets the height used to measure and layout each child. Default value is Number.NaN, which does not restrict children."
   },
-  "{N}-vue Item Width Attribute": {
+  "{NSVue} Item Width Attribute": {
     "prefix": "itemWidth",
     "body": "itemWidth=\"\"",
     "description": "Gets or sets the width used to measure and layout each child. Default value is Number.NaN, which does not restrict children."
   },
-  "{N}-vue Item Height Attribute": {
+  "{NSVue} Item Height Attribute": {
     "prefix": "itemHeight",
     "body": "itemHeight=\"\"",
     "description": "Gets or sets the height used to measure and layout each child. Default value is Number.NaN, which does not restrict children."
   },
   // gestures attributes
-  "{N}-vue tap Attribute": {
+  "{NSVue} tap Attribute": {
     "prefix": "tap",
     "body": "tap=\"\"",
     "description": "Action: Briefly touch the screen."
   },
-  "{N}-vue Vue tap Attribute": {
+  "{NSVue} Vue tap Attribute": {
     "prefix": "@tap",
     "body": "@tap=\"\"",
     "description": "Action: Briefly touch the screen."
   },
-  "{N}-vue doubleTap Attribute": {
+  "{NSVue} doubleTap Attribute": {
     "prefix": "doubleTap",
     "body": "doubleTap=\"\"",
     "description": "Action: Two taps in a quick succession."
   },
-  "{N}-vue longPress Attribute": {
+  "{NSVue} longPress Attribute": {
     "prefix": "longPress",
     "body": "longPress=\"\"",
     "description": "Action: Press your finger against the screen for a few moments"
   },
-  "{N}-vue pan Attribute": {
+  "{NSVue} pan Attribute": {
     "prefix": "pan",
     "body": "pan=\"\"",
     "description": "Action: Press your finger down and immediately start moving it around. Pans are executed more slowly and allow for more precision, and the screen stops responding as soon as the finger is lifted off it."
   },
-  "{N}-vue pinch Attribute": {
+  "{NSVue} pinch Attribute": {
     "prefix": "pinch",
     "body": "pinch=\"\"",
     "description": "Action: Touch the screen using two of your fingers, then move them towards each other or away from each other."
   },
-  "{N}-vue rotation Attribute": {
+  "{NSVue} rotation Attribute": {
     "prefix": "rotation",
     "body": "rotation=\"\"",
     "description": "Action: Touch the screen using two of your fingers, then rotate them simultaneously left or right."
   },
-  "{N}-vue swipe Attribute": {
+  "{NSVue} swipe Attribute": {
     "prefix": "swipe",
     "body": "swipe=\"\"",
     "description": "Action: Swiftly slide your finger across the screen. Swipes are quick and affect the screen even after the finger is lifted off the screen."
   },
-  "{N}-vue touch Attribute": {
+  "{NSVue} touch Attribute": {
     "prefix": "touch",
     "body": "touch=\"\"",
     "description": "Action: This is a general purpose gesture that is triggered whenever a pointer (usually a finger) has performed a touch action (up, down, move or cancel). TouchGestureEventData provides information about all the pointers currently on the screen and their position inside the view that triggered the event."
   },
   // StackLayout properties
-  "{N}-vue orientation Attribute": {
+  "{NSVue} orientation Attribute": {
     "prefix": "orientation",
     "body": "orientation=\"\"",
     "description": "Gets or sets a value indicating whether the child items should be stacked in the horizontal or vertical direction. Possible values are vertical and horizontal. The default value is vertical."
   },
   // GridLayout properties
-  "{N}-vue Row Attribute": {
+  "{NSVue} Row Attribute": {
     "prefix": "row",
     "body": "row=\"\"",
     "description": "Gets or sets a value that indicates which row child content within a GridLayout it should appear in."
   },
-  "{N}-vue Col Attribute": {
+  "{NSVue} Col Attribute": {
     "prefix": "col",
     "body": "col=\"\"",
     "description": "Gets or sets a value that indicates which column child content within a GridLayout it should appear in."
   },
-  "{N}-vue Rows Attribute": {
+  "{NSVue} Rows Attribute": {
     "prefix": "rows",
     "body": "rows=\"\"",
     "description": "A string value representing row heights delimited with commas. Row heights can be either an absolute number, auto or *. A number indicates an absolute row height, auto makes the row as high as its highest child, and * makes the row occupy all available vertical space."
   },
-  "{N}-vue Colums Attribute": {
+  "{NSVue} Colums Attribute": {
     "prefix": "colums",
     "body": "colums=\"\"",
     "description": "A string value representing column widths delimited with commas. Column widths can be either an absolute number, auto or *. A number indicates an absolute column width, auto makes the column as wide as its widest child, and * makes the column occupy all available horizontal space."
   },
-  "{N}-vue Colspan Attribute": {
+  "{NSVue} Colspan Attribute": {
     "prefix": "colspan",
     "body": "colSpan=\"\"",
     "description": "Gets or sets a value that indicates the total number of colums that child content spaNS within a GridLayout."
   },
-  "{N}-vue Rowspan Attribute": {
+  "{NSVue} Rowspan Attribute": {
     "prefix": "rowspan",
     "body": "rowSpan=\"\"",
     "description": "Gets or sets a value that indicates the total number of rows that child content spaNS within a GridLayout."
   },
   // DockLayout properties
-  "{N}-vue DockLayout Dock Attribute": {
+  "{NSVue} DockLayout Dock Attribute": {
     "prefix": "dock",
     "body": "dock=\"\"",
     "description": "Specifies the Dock position of a child element that is iNSide a DockLayout. Possible values are left, top, right and bottom."
   },
-  "{N}-vue Docklayout strechLastChild Attribute": {
+  "{NSVue} Docklayout strechLastChild Attribute": {
     "prefix": "stretchLastChild",
     "body": "stretchLastChild=\"\"",
     "description": "Gets or sets a value that indicates whether the last child element within a DockLayout stretches to fill the remaining available space. The default value is true."
   },
   // FlexboxLayout properties
-  "{N}-vue FlexboxLayout flexDirection Attribute": {
+  "{NSVue} FlexboxLayout flexDirection Attribute": {
     "prefix": "flexDirection",
     "body": "flexDirection=\"\"",
     "description": "Gets or sets a value indicating the direction flex items are placed in the flex container. The flexDirection property accepts 4 different values: row (same as text direction), row-reverse (opposite to text direction), column (same as row but top to bottom), and column-reverse (same as row-reverse top to bottom). The default value is row."
   },
-  "{N}-vue FlexboxLayout flexWrap Attribute": {
+  "{NSVue} FlexboxLayout flexWrap Attribute": {
     "prefix": "flexWrap",
     "body": "flexWrap=\"\"",
     "description": "Gets or sets a value indicating whether the flex items are forced in a single line or can be flowed into multiple lines. If set to multiple lines, it also defines the cross-axis which determines the direction new lines are stacked in. The flexWrap property accepts 3 different values: nowrap (single-line which may cause the container to overflow), wrap (multi-lines, direction is defined by flexDirection), and wrap-reverse (multi-lines, opposite to direction defined by flexDirection). The default value is nowrap.."
   },
-  "{N}-vue FlexboxLayout justifyContent Attribute": {
+  "{NSVue} FlexboxLayout justifyContent Attribute": {
     "prefix": "justifyContent",
     "body": "justifyContent=\"\"",
     "description": "Gets or sets a value indicating the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. It also exerts some control over the alignment of items when they overflow the line. The justifyContent property accepts 5 different values: flex-start (items are packed toward the start line), flex-end (items are packed toward to end line), center (items are centered along the line), space-between (items are evenly distributed in the line; first item is on the start line, last item on the end line), and space-around (items are evenly distributed in the line with equal space around them). The default value is flex-start."
   },
-  "{N}-vue FlexboxLayout alignItems Attribute": {
+  "{NSVue} FlexboxLayout alignItems Attribute": {
     "prefix": "alignItems",
     "body": "alignItems=\"\"",
     "description": "Gets or sets a value indicating how flex items are laid out along the cross axis on the current line. You can think of it as the justifyContent version for the cross-axis (perpendicular to the main-axis). The alignItems property accepts 5 different values: flex-start (cross-start margin edge of the items is placed on the cross-start line), flex-end (cross-end margin edge of the items is placed on the cross-end line), center (items are centered in the cross-axis), baseline (items are aligned such as their baselines align), stretch (stretch to fill the container but still respect min-width/max-width). The default value is stretch."
   },
-  "{N}-vue FlexboxLayout alignContent Attribute": {
+  "{NSVue} FlexboxLayout alignContent Attribute": {
     "prefix": "alignContent",
     "body": "alignContent=\"\"",
     "description": "Gets or sets a value that helps aligning a flex container's lines within it when there is extra space in the cross-axis, similar to how justifyContent aligns individual items within the main-axis. The alignContent property accepts 6 different values: flex-start (lines packed to the start of the container), flex-end (lines packed to the end of the container), center (lines packed to the center of the container), space-between (lines evenly distributed; the first line is at the start of the container while the last one is at the end), space-around (lines evenly distributed with equal space between them), and stretch (lines stretch to take up the remaining space). The default value is stretch. This property has no effect when the flexbox has only a single line."
   },
-  "{N}-vue FlexboxLayout order Attribute": {
+  "{NSVue} FlexboxLayout order Attribute": {
     "prefix": "order",
     "body": "order=\"\"",
     "description": "Gets or sets a value that changes the default ordering of flex items."
   },
-  "{N}-vue FlexboxLayout flexGrow Attribute": {
+  "{NSVue} FlexboxLayout flexGrow Attribute": {
     "prefix": "flexGrow",
     "body": "flexGrow=\"\"",
     "description": "Gets or sets a unitless value that serves as a proportion indicating whether the flex item is able to grow if necessary. It dictates what amount of the available space inside the flex container the item should take up."
   },
-  "{N}-vue FlexboxLayout flexShrink Attribute": {
+  "{NSVue} FlexboxLayout flexShrink Attribute": {
     "prefix": "flexShrink",
     "body": "flexShrink=\"\"",
     "description": "Gets or sets a value indicating the 'flex shrink factor', which determines how much the flex item will shrink relative to the rest of the flex items in the flex container when there is not enough space on the row. When omitted, it is set to 1 and the flex shrink factor is multiplied by the flex basis when distributing negative space."
   },
-  "{N}-vue FlexboxLayout alignSelf Attribute": {
+  "{NSVue} FlexboxLayout alignSelf Attribute": {
     "prefix": "alignSelf",
     "body": "alignSelf=\"\"",
     "description": "Gets or sets a value that makes it possible to override the alignItems value for specific flex items. This property accepts the same 5 values as the alignItems: flex-start (cross-start margin edge of the item is placed on the cross-start line), flex-end (cross-end margin edge of the item is placed on the cross-end line), center (item is centered in the cross-axis), baseline (items are aligned such as their baseline are aligned), and stretch (stretch to fill the container but still respect min-width / max-width). The default value is stretch."
   },
-  "{N}-vue FlexboxLayout flexWrapBefore Attribute": {
+  "{NSVue} FlexboxLayout flexWrapBefore Attribute": {
     "prefix": "flexWrapBefore",
     "body": "flexWrapBefore=\"\"",
     "description": "Gets or sets a boolean value controlling item wrapping. Setting it to true on flexbox item will force it to wrap on a new line. The default value is false. This property is not part of the official flexbox specification."

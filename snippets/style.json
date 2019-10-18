@@ -4,6 +4,17 @@
   //   "body": ": $1;$0",
   //   "description": ""
   // },
+  //Pseudo Selector
+  "{NSVue} highlighted Pseudo Selector": {
+    "prefix": ":highlighted",
+    "body": [
+      ":highlighted {",
+      "  $1",
+      "}",
+      "$0"
+    ],
+    "description": "A pseudo-selector or also pseudo-class is used to define a special state of an element. Currently, NativeScript supports only :highlighted pseudo-selector."
+  },
   //Root Views CSS Classes
   "{NSVue} root Class": {
     "prefix": ".ns-root",

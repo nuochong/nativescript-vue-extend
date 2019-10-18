@@ -4,6 +4,52 @@
   //   "body": ": $1;$0",
   //   "description": ""
   // },
+  //Root Views CSS Classes
+  "{NSVue} root Class": {
+    "prefix": ".ns-root",
+    "body": ".ns-root $0",
+    "description": "a default class"
+  },
+  "{NSVue} android Class": {
+    "prefix": ".ns-android",
+    "body": ".ns-android $0",
+    "description": "classes that specify the application platform"
+  },
+  "{NSVue} ios Class": {
+    "prefix": ".ns-ios",
+    "body": ".ns-ios $0",
+    "description": "classes that specify the application platform"
+  },
+  "{NSVue} phone Class": {
+    "prefix": ".ns-phone",
+    "body": ".ns-phone $0",
+    "description": "classes that specify the device type"
+  },
+  "{NSVue} tablet Class": {
+    "prefix": ".ns-tablet",
+    "body": ".ns-tablet $0",
+    "description": "classes that specify the device type"
+  },
+  "{NSVue} portrait Class": {
+    "prefix": ".ns-portrait",
+    "body": ".ns-portrait $0",
+    "description": "classes that specify the application orientation"
+  },
+  "{NSVue} landscape Class": {
+    "prefix": ".ns-landscape",
+    "body": ".ns-landscape $0",
+    "description": "classes that specify the application orientation"
+  },
+  "{NSVue} unknown Class": {
+    "prefix": ".ns-unknown",
+    "body": ".ns-unknown $0",
+    "description": "classes that specify the application orientation"
+  },
+  "{NSVue} modal Class": {
+    "prefix": ".ns-modal",
+    "body": ".ns-modal $0",
+    "description": "a default CSS class is assigned to the root view of any modal view"
+  },
   //NSVue Specific CSS Properties
   "{NSVue} tabTextColor Style": {
     "prefix": "tabTextColor",

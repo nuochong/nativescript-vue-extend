@@ -6,7 +6,9 @@ Based on the **NativeScript XML Snippets** extension, but adapted to the Vue bin
 
 All snippets are prefixed with `ns`. Attributes do not have a prefix.
 
-## Code Snippets
+## Snippets Components key
+
+### Code Snippets
 
 - Create a Vue instance - `nsvue`
 - HTTP Fetch example - `nsfetch`
@@ -16,26 +18,31 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - NS `launchEvent` block code - `nslaunchevent`
 - NS-vue `$navigateTo(Component)` sentence - `nsnavigate`
 
-## UI Components
+### UI Components
 
-### Layouts
+#### Layouts
 
 - Absolute Layout - `nsabsolute`
+- Flexbox Layout - `NSflex` - new
 - Dock Layout - `nsdock`
 - Grid Layout - `nsgrid`
 - Stack Layout - `nsstack`
 - Wrap Layout - `nswrap`
 
-### Widgets
+#### Widgets
 
 - Page - `nspage`
 - Action Bar - `nsactionbar`
 - Label - `nslabel`
 - Text Field - `nstextfield`
-- Secure Text Field (for passwords) - `nspassword`
+- Secure Text Field (for passwords) - `nspassword` - old
 - Text View - `nstextview`
 - Image - `nsimg`
 - Border - `nsborder`
+- BottomNavigation - `NSBottomNav` - new
+- TabStrip - `NSTabStrip` - new
+- TabStripItem - `NSTabStripItem` - new
+- TabContentItem - `NSTabContentItem` - new
 - Button - `nsbtn`
 - Search Bar - `nssearchbar`
 - Switch - `nsswitch`
@@ -46,11 +53,15 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - Time Picker - `nstime`
 - List Picker - `nslistpicker`
 - Segmented Bar - `nssegmentedbar`
+- Scroll View - `NSscrollview` - new
 - Tab View - `nstabview`
 - List View - `nslistview`
 - Web View - `nswebview`
+- Repeater - `NSrepeater` - new
+- Password Field - `NSpassword` - new
+- Action Item - `NSactionItem` - new
 
-### Attributes
+#### Attributes
 
 - icon - `icon`
 - textWrap - `wrap`
@@ -60,49 +71,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - stretch - `stretch`
 - keyboardType - `kbtype`
 
-## Snippets Components keys
-
-### Layouts
-
-- Absolute Layout - `NSabsolute`
-- Flexbox Layout - `NSflex`
-- Dock Layout - `NSdock`
-- Grid Layout - `NSgrid`
-- Stack Layout - `NSstack`
-- Wrap Layout - `NSwrap`
-
-### Widgets
-
-- Page - `NSpage`
-- Action Bar - `NSactionbar`
-- Label - `NSlabel`
-- Text Field - `NStextfield`
-- Text View - `NStextview`
-- Image - `NSimg`
-- Border - `NSborder`
-- BottomNavigation - `NSBottomNav`
-- TabStrip - `NSTabStrip`
-- TabStripItem - `NSTabStripItem`
-- TabContentItem - `NSTabContentItem`
-- Button - `NSbtn`
-- Search Bar - `NSsearchbar`
-- Switch - `NSswitch`
-- Slider - `NSslider`
-- Progress - `NSprogress`
-- Activity Indicator - `NSloading`
-- Date Picker - `NSdate`
-- Time Picker - `NStime`
-- List Picker - `NSlistpicker`
-- Segmented Bar - `NSsegmentedbar`
-- Scroll View - `NSscrollview`
-- Tab View - `NStabview`
-- List View - `NSlistview`
-- Web View - `NSwebview`
-- Repeater - `NSrepeater`
-- Password Field - `NSpassword`
-- Action Item - `NSactionItem`
-
-### Attributes
+#### Attributes - new
 
 - backgroundColor - `bgColor`
 - backgroundImage - `bgImage`
@@ -123,13 +92,6 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - Icon - `icon`
 - xmlns - `xmlns`
 - text - `text`
-- icon - `icon`
-- textWrap - `wrap`
-- horizontalAlignment - `halign`
-- verticalAlignment - `valign`
-- visibility - `visibility`
-- stretch - `stretch`
-- keyboardType - `kbtype`
 - colSpan - `colspan`
 - rowSpan - `rowspan`
 - row - `row`
@@ -153,7 +115,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - alignSelf - `alignSelf`
 - flexWrapBefore - `flexWrapBefore`
 
-### Gestures Attributes
+#### Gestures Attributes - new
 
 - tap - `tap`
 - @tap - `@tap`

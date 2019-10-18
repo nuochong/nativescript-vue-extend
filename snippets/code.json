@@ -1,5 +1,5 @@
 {
-	"{N} app import": {
+	"{NSVue} app import": {
 		"prefix": "nsapp",
 		"body": [
 			"import * as app from 'tns-core-modules/application';",
@@ -7,7 +7,7 @@
 		],
 		"description": "isIOS import sentence"
 	},
-  "{N} Vue instance": {
+  "{NSVue} Vue instance": {
 		"prefix": "nsvue",
 		"body": [
 			"export default {",
@@ -20,7 +20,7 @@
 		],
 		"description": "Vue instance object"
 	},
-	"{N} HTTP fetch": {
+	"{NSVue} HTTP fetch": {
 		"prefix": "nsfetch",
 		"body": [
 			"import { fetch } from 'tns-core-modules/fetch';",
@@ -33,7 +33,7 @@
 		],
 		"description": "Fetch sentence for getting results"
 	},
-	"{N} isAndroid import": {
+	"{NSVue} isAndroid import": {
 		"prefix": "nsisandroid",
 		"body": [
 			"import { isAndroid } from 'tns-core-modules/platform';",
@@ -41,7 +41,7 @@
 		],
 		"description": "isAndroid import sentence"
 	},
-	"{N} isIOS import": {
+	"{NSVue} isIOS import": {
 		"prefix": "nsisios",
 		"body": [
 			"import { isIOS } from 'tns-core-modules/platform';",
@@ -49,7 +49,7 @@
 		],
 		"description": "isIOS import sentence"
 	},
-	"{N} launchEvent": {
+	"{NSVue} launchEvent": {
 		"prefix": "nslaunchevent",
 		"body": [
 			"import * as app from 'tns-core-modules/application';",
@@ -65,31 +65,31 @@
 		],
 		"description": "launchEvent block"
 	},
-	"{N}-vue $navigateTo": {
+	"{NSVue}-vue $navigateTo": {
 		"prefix": "nsnavigate",
 		"body": [
 			"this.$$navigateTo($1);",
       "$0"
 		],
-		"description": "Navigate to another page using {N}-vue"
+		"description": "Navigate to another page using {NSVue}-vue"
 	},
-	"{N}-vue register component": {
+	"{NSVue}-vue register component": {
 		"prefix": "nsvuecomponent",
 		"body": [
 			"Vue.component($1, $2)",
       "$0"
 		],
-		"description": "Register a component in {N}-vue"
+		"description": "Register a component in {NSVue}-vue"
   },
-	"{N} http module import": {
+	"{NSVue} http module import": {
 		"prefix": "nshttp",
 		"body": [
 			"import * as http from 'tns-core-modules/http';",
       "$0"
 		],
-		"description": "Import the {N} http module"
+		"description": "Import the {NSVue} http module"
   },
-  "{N} navigate back": {
+  "{NSVue} navigate back": {
 		"prefix": "nsnavigateback",
 		"body": [
       "import * as frameModule from 'tns-core-modules/ui/frame';",

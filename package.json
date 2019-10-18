@@ -61,15 +61,15 @@
     "commands": [
       {
         "command": "extension.addAngularNativeFiles",
-        "title": "Add Angular Native Files"
+        "title": "%extend.commands.addAngularNativeFiles.title%"
       },
       {
         "command": "extension.addAngularNativeFilesExtended",
-        "title": "Add Angular Native Files (Extended)"
+        "title": "%extend.commands.addAngularNativeFilesExtended.title%"
       },
       {
         "command": "extension.addVuePage",
-        "title": "Add Vue Files"
+        "title": "%extend.commands.addVuePage.title%"
       }
     ],
     "menus": {
@@ -77,17 +77,17 @@
         {
           "when": "",
           "command": "extension.addAngularNativeFiles",
-          "group": "Add Files"
+          "group": "%extend.menus.addAngularNativeFiles.title%"
         },
         {
           "when": "",
           "command": "extension.addAngularNativeFilesExtended",
-          "group": "Add Files"
+          "group": "%extend.menus.addAngularNativeFilesExtended.title%"
         },
         {
           "when": "",
           "command": "extension.addVuePage",
-          "group": "Add Vue Files"
+          "group": "%extend.menus.addVuePage.title%"
         }
       ]
     }

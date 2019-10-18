@@ -1,0 +1,10 @@
+{
+  "extend.activitybar.title": "extend",
+  "extend.views.Explorer.name": "Explorer",
+  "extend.commands.addAngularNativeFiles.title": "Add Angular Native Files",
+  "extend.commands.addAngularNativeFilesExtended.title": "Add Angular Native Files (Extended)",
+  "extend.commands.addVuePage.title": "Add Vue Files",
+  "extend.menus.addAngularNativeFiles.title": "Add Angular Native Files",
+  "extend.menus.addAngularNativeFilesExtended.title": "Add Angular Native Files (Extended)",
+  "extend.menus.addVuePage.title": "Add Vue Files"
+}

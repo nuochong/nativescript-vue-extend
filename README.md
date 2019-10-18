@@ -79,6 +79,8 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - borderWidth - `borderWidth`
 - translateX - `translateX`
 - translateY - `translateY`
+- scaleX - `scaleX` - new
+- scaleY - `scaleY` - new
 - margin - `margin`
 - opacity - `opacity`
 - style - `style`

@@ -4,6 +4,7 @@
   //   "body": ": $1;$0",
   //   "description": ""
   // },
+  //NSVue Specific CSS Properties
   "{NSVue} tabTextColor Style": {
     "prefix": "tabTextColor",
     "body": "tab-text-color: $1;$0",

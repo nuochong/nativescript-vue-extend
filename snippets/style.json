@@ -1,0 +1,57 @@
+{
+  // "{NSVue}  Style": {
+  //   "prefix": "",
+  //   "body": ": $1;$0",
+  //   "description": ""
+  // },
+  "{NSVue} tabTextColor Style": {
+    "prefix": "tabTextColor",
+    "body": "tab-text-color: $1;$0",
+    "description": "Sets the text color of the tabs titles."
+  },
+  "{NSVue} selectedTabTextColor Style": {
+    "prefix": "selectedTabTextColor",
+    "body": "selected-tab-text-color: $1;$0",
+    "description": "Sets the color of the text, while selecting some of the tabs."
+  },
+  "{NSVue} tabBackgroundColor Style": {
+    "prefix": "tabBackgroundColor",
+    "body": "tab-background-color: $1;$0",
+    "description": "Sets the background color of the tabs."
+  },
+  "{NSVue} tabTextFontSize Style": {
+    "prefix": "tabTextFontSize",
+    "body": "tab-text-font-size: $1;$0",
+    "description": "Sets the tab titles font size, without changing the font size of all contents of the tab."
+  },
+  "{NSVue} textTransform Style": {
+    "prefix": "textTransform",
+    "body": "text-transform: $1;$0",
+    "description": "Sets the text transform individually for every TabViewItem. Value options: capitalize, lowercase, none, and uppercase."
+  },
+  "{NSVue} androidSelectedTabHighlightColor Style": {
+    "prefix": "androidSelectedTabHighlightColor",
+    "body": "android-selected-tab-highlight-color: $1;$0",
+    "description": "Sets the underline color of the tabs in Android."
+  },
+  "{NSVue} androidElevation Style": {
+    "prefix": "androidElevation",
+    "body": "android-elevation: $1;$0",
+    "description": "Sets the elevation of the View in Android."
+  },
+  "{NSVue} androidDynamicElevationOffset Style": {
+    "prefix": "androidDynamicElevationOffset",
+    "body": "android-dynamic-elevation-offset: $1;$0",
+    "description": "Sets the elevation of the View in Android, which will be shown when an action was performed(e.g. tap, touch)."
+  },
+  "{NSVue} offBackgroundColor Style": {
+    "prefix": "offBackgroundColor",
+    "body": "off-background-color: $1;$0",
+    "description": "Sets the background color of the Switch when it is turned off."
+  },
+  "{NSVue} highlightColor Style": {
+    "prefix": "highlightColor",
+    "body": "highlight-color: $1;$0",
+    "description": "Gets or sets the underline color of the selected TabStripItem."
+  }
+}

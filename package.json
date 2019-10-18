@@ -59,6 +59,18 @@
     },
     "snippets": [
       {
+        "language": "css",
+        "path": "./snippets/style.json"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/style.json"
+      },
+      {
+        "language": "less",
+        "path": "./snippets/style.json"
+      },
+      {
         "language": "javascript",
         "path": "./snippets/script.json"
       },

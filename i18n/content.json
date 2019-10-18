@@ -1,8 +1,8 @@
 {
   "please_open_a_file_first":"Please open a file first.. or just right-click on a file/folder and use the context menu!",
   "please_open_a_project_first":"Please open a project first. Thanks! :-)",
-  "whats_the_name_of_the_new_folder":"What\\'s the name of the new folder?",
-  "thats_not_a_valid_name":"That\\'s not a valid name! (no whitespaces or special characters)",
+  "whats_the_name_of_the_new_folder":"What's the name of the new folder?",
+  "thats_not_a_valid_name":"That's not a valid name! (no whitespaces or special characters)",
   "folder_already_exists":"Folder already exists",
   "file_could_not_be_created":"file(s) could not be created. I'm sorry :-("
 }

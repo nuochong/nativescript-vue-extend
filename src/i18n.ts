@@ -3,9 +3,10 @@ import { readFile } from 'fs';
 import { join } from 'path';
 const contentZhCn = '../../i18n/content.zh-cn.json';
 const content = '../../i18n/content.json';
-const language = env.language;//zh-cn
-console.log('language :', language == 'zh-cn' ? contentZhCn : content); 
-const file = join(__dirname, contentZhCn);
+const language = env.language; //zh-cn
+const newLanguage = language != 'zh-cn' ? contentZhCn : content;
+console.log('language :', newLanguage);
+const file = join(__dirname, newLanguage);
 console.log('file :', file);
 import { i18n } from '../typings/i18n';
 

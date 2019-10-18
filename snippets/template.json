@@ -265,7 +265,7 @@
       "        <StackLayout />",
       "    </Repeater.itemsLayout>",
       "    <Repeater.itemTemplate>",
-      "        ",
+      "        $0",
       "    </Repeater.itemTemplate>",
       "</Repeater>"
     ]
@@ -290,7 +290,7 @@
     "prefix": "nsbottomnav",
     "body": [
       "<BottomNavigation selectedIndex=\"1\">",
-      " ",
+      "  $0",
       "</BottomNavigation>",
       ""
     ]
@@ -299,7 +299,7 @@
     "prefix": "NSTabStrip",
     "body": [
       "<TabStrip>",
-      " ",
+      "  $0",
       "</TabStrip>",
       ""
     ]
@@ -317,7 +317,7 @@
     "prefix": "NSTabContentItem",
     "body": [
       "<TabContentItem>",
-      " ",
+      "  $0",
       "</TabContentItem>"
     ]
   },
@@ -441,7 +441,7 @@
   "{N}-vue Action Item": {
     "prefix": "NSactionItem",
     "body": [
-      "<ActionItem tap=\"\"\"/>"
+      "<ActionItem tap=\"$0\"/>"
     ]
   },
   "{N}-vue Navigation button": {

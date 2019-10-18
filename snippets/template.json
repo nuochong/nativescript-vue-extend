@@ -584,8 +584,13 @@
   },
   "{NSVue} Vue tap Attribute": {
     "prefix": "@tap",
-    "body": "@tap=\"\"",
+    "body": "@tap=\"$0\"",
     "description": "Action: Briefly touch the screen."
+  },
+  "{NSVue} Vue loaded Attribute": {
+    "prefix": "@loaded",
+    "body": "@loaded=\"$0\"",
+    "description": "Action: when the page loads."
   },
   "{NSVue} doubleTap Attribute": {
     "prefix": "doubleTap",

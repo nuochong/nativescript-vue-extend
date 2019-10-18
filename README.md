@@ -119,6 +119,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 
 - tap - `tap`
 - @tap - `@tap`
+- @loaded - `@loaded` - new
 - doubleTap - `doubleTap`
 - longPress - `longPress`
 - pan - `pan`

@@ -1,6 +1,4 @@
 {
-  "extend.activitybar.title": "书签",
-  "extend.views.Explorer.name": "浏览器",
   "extend.commands.addAngularNativeFiles.title": "添加Angular原生文件",
   "extend.commands.addAngularNativeFilesExtended.title": "添加Angular原生文件(扩展)",
   "extend.commands.addVuePage.title": "添加Vue文件",

@@ -556,34 +556,6 @@
     "prefix": "actionBarHidden",
     "body": "actionBarHidden=\"true\""
   },
-  // "{N}-vue Icon Attribute": {
-  //   "prefix": "icon",
-  //   "body": "icon=\"res://\""
-  // },
-  // "{N}-vue Text Wrap Attribute": {
-  //   "prefix": "wrap",
-  //   "body": "textWrap=\"true\""
-  // },
-  // "{N}-vue Horizontal Alignment Attribute": {
-  //   "prefix": "halign",
-  //   "body": "horizontalAlignment=\"\""
-  // },
-  // "{N}-vue Vertical Alignment Attribute": {
-  //   "prefix": "valign",
-  //   "body": "verticalAlignment=\"\""
-  // },
-  // "{N}-vue Visibility Attribute": {
-  //   "prefix": "visibility",
-  //   "body": "visibility=\"{{ isItemVisible ? 'visible' : 'collapsed' }}\""
-  // },
-  // "{N}-vue Stretch Attribute": {
-  //   "prefix": "stretch",
-  //   "body": "stretch=\"fill\""
-  // },
-  // "{N}-vue Keyboard Type Attribute": {
-  //   "prefix": "kbtype",
-  //   "body": "keyboardType=\"email\""
-  // },
   "{N}-vue Width Attribute": {
     "prefix": "width",
     "body": "width=\"\"",

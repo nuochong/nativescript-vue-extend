@@ -87,7 +87,6 @@ export class AddFilesVue {
     var inputName: string = pathParse.name;
     const fc: FileContents = new FileContents();
     const af: AddFilesVue = new AddFilesVue();
-    console.log('path :', path.parse(folderName));
     // 创建一个包含文件名和内容的IFiles数组
     var files: IFiles[] = [
       {
@@ -169,7 +168,6 @@ export class AddFilesVue {
   public async redContent(callback): Promise<i18n> {
     const i18n = new I18n();
     this.content = await i18n.getContent();
-    console.log('I18n.getContent() :', this.content);
     return callback(this.content);
   }
 }

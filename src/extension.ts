@@ -6,8 +6,8 @@ import { AddFilesVue } from './add-files-vue';
 
 export function activate(context: ExtensionContext) {
   console.log('Congratulations, your extension is now active!');
-  const temp = workspace.getConfiguration().get('nsvueExtend.showAddAngularNativeFilesExtended');
-  console.log('temp :', temp);
+  // const temp = workspace.getConfiguration().get('nsvueExtend.showAddAngularNativeFilesExtended');
+  // console.log('temp :', temp);
   var addAngularNativeFiles = commands.registerCommand('extension.addAngularNativeFiles', args => {
     const addFiles: AddFiles = new AddFiles();
     addFiles
@@ -50,7 +50,6 @@ export function activate(context: ExtensionContext) {
           }
         });
     });
-
   });
 
   context.subscriptions.push(addAngularNativeFiles);

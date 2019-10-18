@@ -1,14 +1,14 @@
-import { ExtensionContext, commands, window, workspace, env } from 'vscode';
+import { env } from 'vscode';
+import { i18n } from '../typings/i18n';
 import { readFile } from 'fs';
 import { join } from 'path';
 const contentZhCn = '../../i18n/content.zh-cn.json';
 const content = '../../i18n/content.json';
 const language = env.language; //zh-cn
-const newLanguage = language != 'zh-cn' ? contentZhCn : content;
+const newLanguage = language == 'zh-cn' ? contentZhCn : content;
 console.log('language :', newLanguage);
 const file = join(__dirname, newLanguage);
 console.log('file :', file);
-import { i18n } from '../typings/i18n';
 
 export class I18n {
   public async getContent(): Promise<i18n> {

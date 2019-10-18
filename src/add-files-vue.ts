@@ -11,7 +11,7 @@ import { I18n } from './i18n';
 export class AddFilesVue {
   public content: i18n;
   // 显示文件夹名称的输入提示
-  // imput还用于创建在Angular2样式指南中定义的具有各自名称的文件 [https://angular.io/docs/ts/latest/guide/style-guide.html]
+  // input还用于创建在Angular2样式指南中定义的具有各自名称的文件 [https://angular.io/docs/ts/latest/guide/style-guide.html]
 
   // constructor() {
   //   this.redContent();

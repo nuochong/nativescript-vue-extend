@@ -1,11 +1,12 @@
-import { ExtensionContext, commands, window } from 'vscode';
+import { ExtensionContext, commands, window,workspace } from 'vscode';
 import { AddFiles } from './add-files';
 import { AddFilesExtended } from './add-files-extended';
 import { AddFilesVue } from './add-files-vue';
 
 export function activate(context: ExtensionContext) {
   console.log('Congratulations, your extension is now active!');
-
+  const temp = workspace.getConfiguration().get('nsvueExtend.showAddAngularNativeFilesExtended');
+  console.log('temp :', temp);
   var addAngularNativeFiles = commands.registerCommand('extension.addAngularNativeFiles', (args) => {
     const addFiles: AddFiles = new AddFiles();
     addFiles.showFileNameDialog(args)
@@ -34,6 +35,8 @@ export function activate(context: ExtensionContext) {
 
   var addVuePage = commands.registerCommand('extension.addVuePage', (args) => {
     const addFilesVue: AddFilesVue = new AddFilesVue();
+    const temp = workspace.getConfiguration().get('nsvueExtend.showAddAngularNativeFilesExtended');
+    console.log('temp :', temp);
     addFilesVue.showFileNameDialog(args)
       //.then(addFilesVue.createFolder)
       .then(addFilesVue.createFiles)

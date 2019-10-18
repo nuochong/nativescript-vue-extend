@@ -40,17 +40,17 @@
       "type": "object",
       "title": "NativeScript Vue Extend",
       "properties": {
-        "vscodePluginDemo.showAddAngularNativeFiles": {
+        "nsvueExtend.showAddAngularNativeFiles": {
           "type": "boolean",
-          "default": true,
+          "default": false,
           "description": "%extend.configuration.properties.showAddAngularNativeFiles.description%"
         },
-        "vscodePluginDemo.showAddAngularNativeFilesExtended": {
+        "nsvueExtend.showAddAngularNativeFilesExtended": {
           "type": "boolean",
-          "default": true,
+          "default": false,
           "description": "%extend.configuration.properties.showAddAngularNativeFilesExtended.description%"
         },
-        "vscodePluginDemo.showAddVuePage": {
+        "nsvueExtend.showAddVuePage": {
           "type": "boolean",
           "default": true,
           "description": "%extend.configuration.properties.showAddVuePage.description%"
@@ -96,17 +96,17 @@
     "menus": {
       "explorer/context": [
         {
-          "when": "",
+          "when": "explorerResourceIsFolder && config.nsvueExtend.showAddAngularNativeFiles",
           "command": "extension.addAngularNativeFiles",
           "group": "%extend.menus.addAngularNativeFiles.group%"
         },
         {
-          "when": "",
+          "when": "explorerResourceIsFolder && config.nsvueExtend.showAddAngularNativeFilesExtended",
           "command": "extension.addAngularNativeFilesExtended",
           "group": "%extend.menus.addAngularNativeFilesExtended.group%"
         },
         {
-          "when": "",
+          "when": "explorerResourceIsFolder && config.nsvueExtend.showAddVuePage",
           "command": "extension.addVuePage",
           "group": "%extend.menus.addVuePage.group%"
         }

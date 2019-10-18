@@ -60,7 +60,7 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/code.json"
+        "path": "./snippets/script.json"
       },
       {
         "language": "xml",
@@ -68,7 +68,7 @@
       },
       {
         "language": "typescript",
-        "path": "./snippets/code.json"
+        "path": "./snippets/script.json"
       },
       {
         "language": "vue-html",

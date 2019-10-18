@@ -6,5 +6,8 @@
   "extend.commands.addVuePage.title": "Add Vue Files",
   "extend.menus.addAngularNativeFiles.title": "Add Angular Native Files",
   "extend.menus.addAngularNativeFilesExtended.title": "Add Angular Native Files (Extended)",
-  "extend.menus.addVuePage.title": "Add Vue Files"
+  "extend.menus.addVuePage.title": "Add Vue Files",
+  "extend.configuration.properties.showAddAngularNativeFiles.description": "Displays The 'Add Angular Native Files' Option",
+  "extend.configuration.properties.showAddAngularNativeFilesExtended.description": "Displays The 'Add Angular Native Files (Extended)' Option",
+  "extend.configuration.properties.showAddVuePage.description": "Displays The 'Add Vue Files' Option"
 }

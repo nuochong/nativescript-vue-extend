@@ -111,5 +111,256 @@
     "prefix": "highlightColor",
     "body": "highlight-color: $1;$0",
     "description": "Gets or sets the underline color of the selected TabStripItem."
-  }
+  },
+  // Supported CSS Properties 50
+  "{NSVue} color Style": {
+    "prefix": "color",
+    "body": "color: $1;$0",
+    "description": "Sets a solid-color value to the matched view’s foreground."
+  },
+  "{NSVue} background Style": {
+    "prefix": "background",
+    "body": "background: $1;$0",
+    "description": "Sets a solid-color value or a linear gradient to the matched view’s background."
+  },
+  "{NSVue} backgroundColor Style": {
+    "prefix": "background-color",
+    "body": "background-color: $1;$0",
+    "description": "Sets a solid-color value to the matched view’s background."
+  },
+  "{NSVue} placeholderColor Style": {
+    "prefix": "placeholder-color",
+    "body": "placeholder-color: $1;$0",
+    "description": "Sets the placeholder (hint) font color to matched views."
+  },
+  "{NSVue} backgroundImage Style": {
+    "prefix": "background-image",
+    "body": "background-image: $1;$0",
+    "description": "Sets a image url to the matched view’s background image."
+  },
+  "{NSVue} backgroundRepeat Style": {
+    "prefix": "background-repeat",
+    "body": "background-repeat: $1;$0",
+    "description": "Sets if/how the background image should be repeated. Possible values: repeat, repeat-x, repeat-y, no-repeat"
+  },
+  "{NSVue} backgroundPosition Style": {
+    "prefix": "background-position",
+    "body": "background-position: $1;$0",
+    "description": "Sets the starting position of the background image. You can set the position with absolute, percent or alignment values. More info here."
+  },
+  "{NSVue} backgroundSize Style": {
+    "prefix": "background-size",
+    "body": "background-size: $1;$0",
+    "description": "Sets the size of the background image. Possible values: \"length length\", \"percent% percent%\", \"cover\" or \"contain\"."
+  },
+  "{NSVue} borderColor Style": {
+    "prefix": "border-color",
+    "body": "border-color: $1;$0",
+    "description": "Sets border colors to the matched view’s."
+  },
+  "{NSVue} borderTopColor Style": {
+    "prefix": "border-top-color",
+    "body": "border-top-color: $1;$0",
+    "description": "Sets a top border color to the matched view’s."
+  },
+  "{NSVue} borderRightColor Style": {
+    "prefix": "border-right-color",
+    "body": "border-right-color: $1;$0",
+    "description": "Sets a right border color to the matched view’s."
+  },
+  "{NSVue} borderBottomColor Style": {
+    "prefix": "border-bottom-color",
+    "body": "border-bottom-color: $1;$0",
+    "description": "Sets a bottom border color to the matched view’s."
+  },
+  "{NSVue} borderLeftColor Style": {
+    "prefix": "border-left-color",
+    "body": "border-left-color: $1;$0",
+    "description": "Sets a left border color to the matched view’s."
+  },
+  "{NSVue} borderWidth Style": {
+    "prefix": "border-width",
+    "body": "border-width: $1;$0",
+    "description": "Sets border widths to the matched view’s."
+  },
+  "{NSVue} borderTopWidth Style": {
+    "prefix": "border-top-width",
+    "body": "border-top-width: $1;$0",
+    "description": "Sets a top border width to the matched view’s."
+  },
+  "{NSVue} borderRightWidth Style": {
+    "prefix": "border-right-width",
+    "body": "border-right-width: $1;$0",
+    "description": "Sets a right border width to the matched view’s."
+  },
+  "{NSVue} borderBottomWidth Style": {
+    "prefix": "border-bottom-width",
+    "body": "border-bottom-width: $1;$0",
+    "description": "Sets a bottom border width to the matched view’s."
+  },
+  "{NSVue} borderLeftWidth Style": {
+    "prefix": "border-left-width",
+    "body": "border-left-width: $1;$0",
+    "description": "Sets a left border width to the matched view’s."
+  },
+  "{NSVue} borderRadius Style": {
+    "prefix": "border-radius",
+    "body": "border-radius: $1;$0",
+    "description": "Sets a border radius to the matched view’s."
+  },
+  "{NSVue} font Style": {
+    "prefix": "font",
+    "body": "font: $1;$0",
+    "description": "Sets the font properties (this includes font-family, font-size, font-style and font-weight) of the matched view."
+  },
+  "{NSVue} fontFamily Style": {
+    "prefix": "font-family",
+    "body": "font-family: $1;$0",
+    "description": "Sets the font family of the matched view."
+  },
+  "{NSVue} fontSize Style": {
+    "prefix": "font-size",
+    "body": "font-size: $1;$0",
+    "description": "Sets the font size of the matched view (only supports device-independent units)."
+  },
+  "{NSVue} fontStyle Style": {
+    "prefix": "font-style",
+    "body": "font-style: $1;$0",
+    "description": "Sets the font style of the matched view. Possible values: italic, normal."
+  },
+  "{NSVue} fontWeight Style": {
+    "prefix": "font-weight",
+    "body": "font-weight: $1;$0",
+    "description": "Sets the font weight of the matched view Possible values: bold, normal OR 100,200,300,400,500,600,700,800,900, where 400 is normal and 700 is bold (NOTE: Some fonts do not support all available variants)"
+  },
+  "{NSVue} textAlignment Style": {
+    "prefix": "text-align",
+    "body": "text-align: $1;$0",
+    "description": "Sets text alignment in the matched view. Possible values: left , center, right."
+  },
+  "{NSVue} textDecoration Style": {
+    "prefix": "text-decoration",
+    "body": "text-decoration: $1;$0",
+    "description": "Sets the text formatting. Possible values: none, line-through, underline."
+  },
+  // "{NSVue} textTransform Style": {
+  //   "prefix": "text-transform",
+  //   "body": "text-transform: $1;$0",
+  //   "description": "Sets the text transform. Possible values: none, capitalize, uppercase, lowercase."
+  // },
+  "{NSVue} letterSpacing Style": {
+    "prefix": "letter-spacing",
+    "body": "letter-spacing: $1;$0",
+    "description": "Sets the text letter spacing. (On Android API Level 21 and above.)"
+  },
+  "{NSVue} lineHeight Style": {
+    "prefix": "line-height",
+    "body": "line-height: $1;$0",
+    "description": "Sets the text line height"
+  },
+  "{NSVue} zIndex Style": {
+    "prefix": "z-index",
+    "body": "z-index: $1;$0",
+    "description": "Sets the z-index. (On Android API Level 21 and above.)"
+  },
+  "{NSVue} clip-path Style": {
+    "prefix": "clip-path",
+    "body": "clip-path: $1;$0",
+    "description": "Sets the clip-path. Supported shapes are circle, ellipse, rect and polygon. You can define your own shape using clippy"
+  },
+  "{NSVue} verticalAlignment Style": {
+    "prefix": "vertical-align",
+    "body": "vertical-align: $1;$0",
+    "description": "Sets the vertical alignment of the current view within its parent. Possible values: top, center, bottom, stretch."
+  },
+  "{NSVue} horizontalAlignment Style": {
+    "prefix": "horizontal-align",
+    "body": "horizontal-align: $1;$0",
+    "description": "Sets the horizontal alignment of the current view within its parent. Possible values: left, center, right, stretch."
+  },
+  "{NSVue} margin Style": {
+    "prefix": "margin",
+    "body": "margin: $1;$0",
+    "description": "Sets the margin of the view within its parent."
+  },
+  "{NSVue} marginTop Style": {
+    "prefix": "margin-top",
+    "body": "margin-top: $1;$0",
+    "description": "Sets the top margin of the view within its parent."
+  },
+  "{NSVue} marginRight Style": {
+    "prefix": "margin-right",
+    "body": "margin-right: $1;$0",
+    "description": "Sets the right margin of the view within its parent."
+  },
+  "{NSVue} marginBottom Style": {
+    "prefix": "margin-bottom",
+    "body": "margin-bottom: $1;$0",
+    "description": "Sets the bottom margin of the view within its parent."
+  },
+  "{NSVue} marginLeft Style": {
+    "prefix": "margin-left",
+    "body": "margin-left: $1;$0",
+    "description": "Sets the left margin of the view within its parent."
+  },
+  "{NSVue} width Style": {
+    "prefix": "width",
+    "body": "width: $1;$0",
+    "description": "Sets the view width."
+  },
+  "{NSVue} height Style": {
+    "prefix": "height",
+    "body": "height: $1;$0",
+    "description": "Sets the view height."
+  },
+  "{NSVue} minWidth Style": {
+    "prefix": "min-width",
+    "body": "min-width: $1;$0",
+    "description": "Sets the minimal view width."
+  },
+  "{NSVue} minHeight Style": {
+    "prefix": "min-height",
+    "body": "min-height: $1;$0",
+    "description": "Sets the minimal view height."
+  },
+  "{NSVue} padding Style": {
+    "prefix": "padding",
+    "body": "padding: $1;$0",
+    "description": "Sets the distance between the boundaries of the layout container and its children."
+  },
+  "{NSVue} paddingTop Style": {
+    "prefix": "padding-top",
+    "body": "padding-top: $1;$0",
+    "description": "Sets the top padding of a layout container."
+  },
+  "{NSVue} paddingRight Style": {
+    "prefix": "padding-right",
+    "body": "padding-right: $1;$0",
+    "description": "Sets the right padding of a layout container."
+  },
+  "{NSVue} paddingBottom Style": {
+    "prefix": "padding-bottom",
+    "body": "padding-bottom: $1;$0",
+    "description": "Sets the bottom padding of a layout container."
+  },
+  "{NSVue} paddingLeft Style": {
+    "prefix": "padding-left",
+    "body": "padding-left: $1;$0",
+    "description": "Sets the left padding of a layout container."
+  },
+  "{NSVue} visibility Style": {
+    "prefix": "visibility",
+    "body": "visibility: $1;$0",
+    "description": "Sets the view visibility. Possible values: visible, collapse (or collapsed)."
+  },
+  "{NSVue} opacity Style": {
+    "prefix": "opacity",
+    "body": "opacity: $1;$0",
+    "description": "Sets the view opacity. The value is in the [0, 1] range."
+  },
+  "{NSVue}  Style": {
+    "prefix": "",
+    "body": ": $1;$0",
+    "description": ""
+  },
 }

@@ -12,7 +12,7 @@
   },
   {
     "name": "my-test",
-    "description": "Compiles down to `width` and `height`. See details at https://github.com/postcss/postcss-size",
+    "description": "Compiles down to `height` and `width`. See details at https://github.com/postcss/postcss-size",
     "references": [
       {
         "name": "GitHub",

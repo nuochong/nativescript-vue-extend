@@ -16,5 +16,21 @@
         "url": "https://getbootstrap.com/docs/4.0/components/buttons/"
       }
     ]
+  },{
+    "name": "my-test",
+    "description": "My test",
+    "attributes": [{
+      "name": "type",
+      "description": "My test type",
+      "values": [
+        { "name": "alert" }
+      ]
+    }],
+    "references": [
+      {
+        "name": "Bootstrap test",
+        "url": "https://getbootstrap.com/docs/4.0/components/buttons/"
+      }
+    ]
   }]
 }

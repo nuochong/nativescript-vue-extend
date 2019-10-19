@@ -112,7 +112,7 @@
     "body": "highlight-color: $1;$0",
     "description": "Gets or sets the underline color of the selected TabStripItem."
   },
-  // Supported CSS Properties 50
+  // Supported CSS Properties 49
   "{NSVue} color Style": {
     "prefix": "color",
     "body": "color: $1;$0",
@@ -357,10 +357,5 @@
     "prefix": "opacity",
     "body": "opacity: $1;$0",
     "description": "Sets the view opacity. The value is in the [0, 1] range."
-  },
-  "{NSVue}  Style": {
-    "prefix": "",
-    "body": ": $1;$0",
-    "description": ""
-  },
+  }
 }

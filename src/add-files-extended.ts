@@ -18,7 +18,7 @@ export class AddFilesExtended extends AddFiles {
       fs.mkdir(folderName, (err) => {
         fs.mkdirSync(path.join(folderName, 'shared'));
         deferred.resolve(folderName);
-      });      
+      });
     } else {
       deferred.reject('Folder already exists');
     }

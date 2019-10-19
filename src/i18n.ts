@@ -12,7 +12,7 @@ console.log('file :', file);
 
 export class I18n {
   public async getContent(): Promise<i18n> {
-    let res = new Promise<i18n>(function(resolve, reject) {
+    let res = new Promise<i18n>(function (resolve, reject) {
       readFile(file, (err, data) => {
         if (err) {
           console.log('This is not a nativescript project');

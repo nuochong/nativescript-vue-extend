@@ -1,6 +1,6 @@
 export class FileContents {
   private camelCase(input: string): string {
-    return input.replace(/-([a-z])/gi, function(all, letter) {
+    return input.replace(/-([a-z])/gi, function (all, letter) {
       return letter.toUpperCase();
     });
   }

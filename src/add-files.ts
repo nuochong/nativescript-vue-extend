@@ -43,7 +43,7 @@ export class AddFiles {
           }
         },
         (error) => console.error(error)
-        );
+      );
     }
     return deferred.promise;
   }
@@ -58,7 +58,7 @@ export class AddFiles {
         deferred.resolve(folderName);
       } else {
         deferred.reject('Folder already exists');
-      }      
+      }
     });
     return deferred.promise;
   }
@@ -66,7 +66,7 @@ export class AddFiles {
   // Get file contents and create the new files in the folder 
   public createFiles(folderName: string): Q.Promise<string> {
     const deferred: Q.Deferred<string> = Q.defer<string>();
-    var inputName: string = path.parse(folderName).name;    
+    var inputName: string = path.parse(folderName).name;
     const fc: FileContents = new FileContents();
     const af: AddFiles = new AddFiles();
 
@@ -103,14 +103,14 @@ export class AddFiles {
     return deferred.promise;
   }
 
-  public writeFiles( files: IFiles[]): Q.Promise<string[]> {
+  public writeFiles(files: IFiles[]): Q.Promise<string[]> {
     const deferred: Q.Deferred<string[]> = Q.defer<string[]>();
-    var errors: string[] = []; 
+    var errors: string[] = [];
     files.forEach(file => {
       fs.writeFile(file.name, file.content, (err) => {
-          if (err) { errors.push(err.message) }          
-          deferred.resolve(errors);
-        });
+        if (err) { errors.push(err.message) }
+        deferred.resolve(errors);
+      });
     });
     return deferred.promise;
   }

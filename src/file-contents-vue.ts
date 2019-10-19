@@ -30,12 +30,19 @@ export class FileContents {
 export default {
     data () {
         return {
+          
         };
     },
+    mounted() {
+
+    },
+    methods:{
+
+    }
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .home-panel {
     vertical-align: center;
     font-size: 20;

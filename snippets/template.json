@@ -605,7 +605,7 @@
   },
   "{NSVue} IOS Safe Area Attribute": {
     "prefix": "iosOverflowSafeArea",
-    "body": "iosOverflowSafeArea=true",
+    "body": "iosOverflowSafeArea=\"true\"",
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Translate X Attribute": {
@@ -636,7 +636,7 @@
   "{NSVue} xmlns Attribute": {
     "prefix": "xmlns",
     "body": "xmlns:=\"$1\"$0",
-    "description": "⚙️ UI Snippets\n\n11111\n\n"
+    "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} action Bar Hidden Attribute": {
     "prefix": "actionBarHidden",

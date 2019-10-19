@@ -37,15 +37,15 @@
   ],
   "contributes": {
     "html": {
-			"customData": [
-				"./custom-data/html.html-data.json"
-			]
-		},
-		"css": {
-			"customData": [
-				"./custom-data/css.css-data.json"
-			]
-		},
+      "customData": [
+        "./custom-data/html.html-data.json"
+      ]
+    },
+    "css": {
+      "customData": [
+        "./custom-data/css.css-data.json"
+      ]
+    },
     "configuration": {
       "type": "object",
       "title": "NativeScript Vue Extend",

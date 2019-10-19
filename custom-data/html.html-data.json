@@ -32,5 +32,23 @@
         "url": "https://getbootstrap.com/docs/4.0/components/buttons/"
       }
     ]
+  },{
+    "name": "ios",
+    "description": "Platform-specific markup blocks",
+    "references": [
+      {
+        "name": "Bootstrap test",
+        "url": "https://getbootstrap.com/docs/4.0/components/buttons/"
+      }
+    ]
+  },{
+    "name": "android",
+    "description": "Platform-specific markup blocks",
+    "references": [
+      {
+        "name": "Bootstrap test",
+        "url": "https://getbootstrap.com/docs/4.0/components/buttons/"
+      }
+    ]
   }]
 }

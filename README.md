@@ -8,7 +8,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 
 ## Snippets Components key
 
-### Code Snippets 🔩
+### 🔩 Code Snippets
 
 - Create a Vue instance - `nsvue`
 - HTTP Fetch example - `nsfetch`
@@ -18,7 +18,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - NSVue `launchEvent` block code - `nslaunchevent`
 - NSVue `$navigateTo(Component)` sentence - `nsnavigate`
 
-### UI Components ⚙️
+### ⚙️ UI Snippets
 
 #### Layouts
 
@@ -130,7 +130,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - swipe - `swipe`
 - touch - `touch`
 
-#### Supported CSS Properties - new
+#### 🔓 Supported CSS Properties - new
 
 - color - `color` - Sets a solid-color value to the matched view’s foreground.
 - background - `background` - Sets a solid-color value or a linear gradient to the matched view’s background.
@@ -182,7 +182,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - visibility - `visibility` - Sets the view visibility. Possible values: visible, collapse (or collapsed).
 - opacity - `opacity` - Sets the view opacity. The value is in the [0, 1] range.
 
-#### NativeScript Specific CSS Properties - new
+#### 🔒 NativeScript Specific CSS Properties - new
 
 - tab-text-color - `tabTextColor` - Sets the text color of the tabs titles.
 - selected-tab-text-color - `selectedTabTextColor` - Sets the color of the text, while selecting some of the tabs.
@@ -195,7 +195,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - off-background-color - `offBackgroundColor` - Sets the background color of the Switch when it is turned off.
 - highlight-color - `highlightColor` - Gets or sets the underline color of the selected TabStripItem.
 
-#### Root Views CSS Classes - new
+#### 🔐 Root Views CSS Classes - new
 
 - `.ns-root` - a default class
 - `.ns-android`, `.ns-ios` - classes that specify the application platform

@@ -2,360 +2,360 @@
   // "{NSVue}  Style": {
   //   "prefix": "",
   //   "body": ": $1;$0",
-  //   "description": ""
+  //   "description": "\n\n"
   // },
   //Pseudo Selector
   "{NSVue} highlighted Pseudo Selector": {
-    "prefix": ":highlighted",
+    "prefix": "ns:highlighted",
     "body": [
       ":highlighted {",
       "  $1",
       "}",
       "$0"
     ],
-    "description": "A pseudo-selector or also pseudo-class is used to define a special state of an element. Currently, NativeScript supports only :highlighted pseudo-selector."
+    "description": "🔏 Pseudo Selector\n\nA pseudo-selector or also pseudo-class is used to define a special state of an element. Currently, NativeScript supports only :highlighted pseudo-selector.\n\n"
   },
   //Root Views CSS Classes
   "{NSVue} root Class": {
     "prefix": ".ns-root",
     "body": ".ns-root $0",
-    "description": "a default class"
+    "description": "🔐 Root Views CSS Classes\n\na default class\n\n"
   },
   "{NSVue} android Class": {
     "prefix": ".ns-android",
     "body": ".ns-android $0",
-    "description": "classes that specify the application platform"
+    "description": "🔐 Root Views CSS Classes\n\nclasses that specify the application platform\n\n"
   },
   "{NSVue} ios Class": {
     "prefix": ".ns-ios",
     "body": ".ns-ios $0",
-    "description": "classes that specify the application platform"
+    "description": "🔐 Root Views CSS Classes\n\nclasses that specify the application platform\n\n"
   },
   "{NSVue} phone Class": {
     "prefix": ".ns-phone",
     "body": ".ns-phone $0",
-    "description": "classes that specify the device type"
+    "description": "🔐 Root Views CSS Classes\n\nclasses that specify the device type\n\n"
   },
   "{NSVue} tablet Class": {
     "prefix": ".ns-tablet",
     "body": ".ns-tablet $0",
-    "description": "classes that specify the device type"
+    "description": "🔐 Root Views CSS Classes\n\nclasses that specify the device type\n\n"
   },
   "{NSVue} portrait Class": {
     "prefix": ".ns-portrait",
     "body": ".ns-portrait $0",
-    "description": "classes that specify the application orientation"
+    "description": "🔐 Root Views CSS Classes\n\nclasses that specify the application orientation\n\n"
   },
   "{NSVue} landscape Class": {
     "prefix": ".ns-landscape",
     "body": ".ns-landscape $0",
-    "description": "classes that specify the application orientation"
+    "description": "🔐 Root Views CSS Classes\n\nclasses that specify the application orientation\n\n"
   },
   "{NSVue} unknown Class": {
     "prefix": ".ns-unknown",
     "body": ".ns-unknown $0",
-    "description": "classes that specify the application orientation"
+    "description": "🔐 Root Views CSS Classes\n\nclasses that specify the application orientation\n\n"
   },
   "{NSVue} modal Class": {
     "prefix": ".ns-modal",
     "body": ".ns-modal $0",
-    "description": "a default CSS class is assigned to the root view of any modal view"
+    "description": "🔐 Root Views CSS Classes\n\na default CSS class is assigned to the root view of any modal view\n\n"
   },
   //NSVue Specific CSS Properties
   "{NSVue} tabTextColor Style": {
     "prefix": "ns-tabTextColor",
     "body": "tab-text-color: $1;$0",
-    "description": "Sets the text color of the tabs titles."
+    "description": "🔒 NSVue Specific CSS Properties\n\nSets the text color of the tabs titles.Sets the text color of the tabs titles.Sets the text color of the tabs titles.Sets the text color of the tabs titles.\n\n"
   },
   "{NSVue} selectedTabTextColor Style": {
     "prefix": "ns-selectedTabTextColor",
     "body": "selected-tab-text-color: $1;$0",
-    "description": "Sets the color of the text, while selecting some of the tabs."
+    "description": "🔒 NSVue Specific CSS Properties\n\nSets the color of the text, while selecting some of the tabs.\n\n"
   },
   "{NSVue} tabBackgroundColor Style": {
     "prefix": "ns-tabBackgroundColor",
     "body": "tab-background-color: $1;$0",
-    "description": "Sets the background color of the tabs."
+    "description": "🔒 NSVue Specific CSS Properties\n\nSets the background color of the tabs.\n\n"
   },
   "{NSVue} tabTextFontSize Style": {
     "prefix": "ns-tabTextFontSize",
     "body": "tab-text-font-size: $1;$0",
-    "description": "Sets the tab titles font size, without changing the font size of all contents of the tab."
+    "description": "🔒 NSVue Specific CSS Properties\n\nSets the tab titles font size, without changing the font size of all contents of the tab.\n\n"
   },
   "{NSVue} textTransform Style": {
     "prefix": "ns-textTransform",
     "body": "text-transform: $1;$0",
-    "description": "Sets the text transform individually for every TabViewItem. Value options: capitalize, lowercase, none, and uppercase."
+    "description": "🔒 NSVue Specific CSS Properties\n\nSets the text transform individually for every TabViewItem. Value options: capitalize, lowercase, none, and uppercase.\n\n"
   },
   "{NSVue} androidSelectedTabHighlightColor Style": {
     "prefix": "ns-androidSelectedTabHighlightColor",
     "body": "android-selected-tab-highlight-color: $1;$0",
-    "description": "Sets the underline color of the tabs in Android."
+    "description": "🔒 NSVue Specific CSS Properties\n\nSets the underline color of the tabs in Android.\n\n"
   },
   "{NSVue} androidElevation Style": {
     "prefix": "ns-androidElevation",
     "body": "android-elevation: $1;$0",
-    "description": "Sets the elevation of the View in Android."
+    "description": "🔒 NSVue Specific CSS Properties\n\nSets the elevation of the View in Android.\n\n"
   },
   "{NSVue} androidDynamicElevationOffset Style": {
     "prefix": "ns-androidDynamicElevationOffset",
     "body": "android-dynamic-elevation-offset: $1;$0",
-    "description": "Sets the elevation of the View in Android, which will be shown when an action was performed(e.g. tap, touch)."
+    "description": "🔒 NSVue Specific CSS Properties\n\nSets the elevation of the View in Android, which will be shown when an action was performed(e.g. tap, touch).\n\n"
   },
   "{NSVue} offBackgroundColor Style": {
     "prefix": "ns-offBackgroundColor",
     "body": "off-background-color: $1;$0",
-    "description": "Sets the background color of the Switch when it is turned off."
+    "description": "🔒 NSVue Specific CSS Properties\n\nSets the background color of the Switch when it is turned off.\n\n"
   },
   "{NSVue} highlightColor Style": {
     "prefix": "ns-highlightColor",
     "body": "highlight-color: $1;$0",
-    "description": "Gets or sets the underline color of the selected TabStripItem."
+    "description": "🔒 NSVue Specific CSS Properties\n\nGets or sets the underline color of the selected TabStripItem.\n\n"
   },
   // Supported CSS Properties 49
   "{NSVue} color Style": {
     "prefix": "ns-color",
     "body": "color: $1;$0",
-    "description": "Sets a solid-color value to the matched view’s foreground."
+    "description": "🔓 Supported CSS Properties\n\nSets a solid-color value to the matched view’s foreground.\n\n"
   },
   "{NSVue} background Style": {
     "prefix": "ns-background",
     "body": "background: $1;$0",
-    "description": "Sets a solid-color value or a linear gradient to the matched view’s background."
+    "description": "🔓 Supported CSS Properties\n\nSets a solid-color value or a linear gradient to the matched view’s background.\n\n"
   },
   "{NSVue} backgroundColor Style": {
     "prefix": "ns-background-color",
     "body": "background-color: $1;$0",
-    "description": "Sets a solid-color value to the matched view’s background."
+    "description": "🔓 Supported CSS Properties\n\nSets a solid-color value to the matched view’s background.\n\n"
   },
   "{NSVue} placeholderColor Style": {
     "prefix": "ns-placeholder-color",
     "body": "placeholder-color: $1;$0",
-    "description": "Sets the placeholder (hint) font color to matched views."
+    "description": "🔓 Supported CSS Properties\n\nSets the placeholder (hint) font color to matched views.\n\n"
   },
   "{NSVue} backgroundImage Style": {
     "prefix": "ns-background-image",
     "body": "background-image: $1;$0",
-    "description": "Sets a image url to the matched view’s background image."
+    "description": "🔓 Supported CSS Properties\n\nSets a image url to the matched view’s background image.\n\n"
   },
   "{NSVue} backgroundRepeat Style": {
     "prefix": "ns-background-repeat",
     "body": "background-repeat: $1;$0",
-    "description": "Sets if/how the background image should be repeated. Possible values: repeat, repeat-x, repeat-y, no-repeat"
+    "description": "🔓 Supported CSS Properties\n\nSets if/how the background image should be repeated. Possible values: repeat, repeat-x, repeat-y, no-repeat\n\n"
   },
   "{NSVue} backgroundPosition Style": {
     "prefix": "ns-background-position",
     "body": "background-position: $1;$0",
-    "description": "Sets the starting position of the background image. You can set the position with absolute, percent or alignment values. More info here."
+    "description": "🔓 Supported CSS Properties\n\nSets the starting position of the background image. You can set the position with absolute, percent or alignment values. More info here.\n\n"
   },
   "{NSVue} backgroundSize Style": {
     "prefix": "ns-background-size",
     "body": "background-size: $1;$0",
-    "description": "Sets the size of the background image. Possible values: \"length length\", \"percent% percent%\", \"cover\" or \"contain\"."
+    "description": "🔓 Supported CSS Properties\n\nSets the size of the background image. Possible values: \"length length\", \"percent% percent%\", \"cover\" or \"contain\".\n\n"
   },
   "{NSVue} borderColor Style": {
     "prefix": "ns-border-color",
     "body": "border-color: $1;$0",
-    "description": "Sets border colors to the matched view’s."
+    "description": "🔓 Supported CSS Properties\n\nSets border colors to the matched view’s.\n\n"
   },
   "{NSVue} borderTopColor Style": {
     "prefix": "ns-border-top-color",
     "body": "border-top-color: $1;$0",
-    "description": "Sets a top border color to the matched view’s."
+    "description": "🔓 Supported CSS Properties\n\nSets a top border color to the matched view’s.\n\n"
   },
   "{NSVue} borderRightColor Style": {
     "prefix": "ns-border-right-color",
     "body": "border-right-color: $1;$0",
-    "description": "Sets a right border color to the matched view’s."
+    "description": "🔓 Supported CSS Properties\n\nSets a right border color to the matched view’s.\n\n"
   },
   "{NSVue} borderBottomColor Style": {
     "prefix": "ns-border-bottom-color",
     "body": "border-bottom-color: $1;$0",
-    "description": "Sets a bottom border color to the matched view’s."
+    "description": "🔓 Supported CSS Properties\n\nSets a bottom border color to the matched view’s.\n\n"
   },
   "{NSVue} borderLeftColor Style": {
     "prefix": "ns-border-left-color",
     "body": "border-left-color: $1;$0",
-    "description": "Sets a left border color to the matched view’s."
+    "description": "🔓 Supported CSS Properties\n\nSets a left border color to the matched view’s.\n\n"
   },
   "{NSVue} borderWidth Style": {
     "prefix": "ns-border-width",
     "body": "border-width: $1;$0",
-    "description": "Sets border widths to the matched view’s."
+    "description": "🔓 Supported CSS Properties\n\nSets border widths to the matched view’s.\n\n"
   },
   "{NSVue} borderTopWidth Style": {
     "prefix": "ns-border-top-width",
     "body": "border-top-width: $1;$0",
-    "description": "Sets a top border width to the matched view’s."
+    "description": "🔓 Supported CSS Properties\n\nSets a top border width to the matched view’s.\n\n"
   },
   "{NSVue} borderRightWidth Style": {
     "prefix": "ns-border-right-width",
     "body": "border-right-width: $1;$0",
-    "description": "Sets a right border width to the matched view’s."
+    "description": "🔓 Supported CSS Properties\n\nSets a right border width to the matched view’s.\n\n"
   },
   "{NSVue} borderBottomWidth Style": {
     "prefix": "ns-border-bottom-width",
     "body": "border-bottom-width: $1;$0",
-    "description": "Sets a bottom border width to the matched view’s."
+    "description": "🔓 Supported CSS Properties\n\nSets a bottom border width to the matched view’s.\n\n"
   },
   "{NSVue} borderLeftWidth Style": {
     "prefix": "ns-border-left-width",
     "body": "border-left-width: $1;$0",
-    "description": "Sets a left border width to the matched view’s."
+    "description": "🔓 Supported CSS Properties\n\nSets a left border width to the matched view’s.\n\n"
   },
   "{NSVue} borderRadius Style": {
     "prefix": "ns-border-radius",
     "body": "border-radius: $1;$0",
-    "description": "Sets a border radius to the matched view’s."
+    "description": "🔓 Supported CSS Properties\n\nSets a border radius to the matched view’s.\n\n"
   },
   "{NSVue} font Style": {
     "prefix": "ns-font",
     "body": "font: $1;$0",
-    "description": "Sets the font properties (this includes font-family, font-size, font-style and font-weight) of the matched view."
+    "description": "🔓 Supported CSS Properties\n\nSets the font properties (this includes font-family, font-size, font-style and font-weight) of the matched view.\n\n"
   },
   "{NSVue} fontFamily Style": {
     "prefix": "ns-font-family",
     "body": "font-family: $1;$0",
-    "description": "Sets the font family of the matched view."
+    "description": "🔓 Supported CSS Properties\n\nSets the font family of the matched view.\n\n"
   },
   "{NSVue} fontSize Style": {
     "prefix": "ns-font-size",
     "body": "font-size: $1;$0",
-    "description": "Sets the font size of the matched view (only supports device-independent units)."
+    "description": "🔓 Supported CSS Properties\n\nSets the font size of the matched view (only supports device-independent units).\n\n"
   },
   "{NSVue} fontStyle Style": {
     "prefix": "ns-font-style",
     "body": "font-style: $1;$0",
-    "description": "Sets the font style of the matched view. Possible values: italic, normal."
+    "description": "🔓 Supported CSS Properties\n\nSets the font style of the matched view. Possible values: italic, normal.\n\n"
   },
   "{NSVue} fontWeight Style": {
     "prefix": "ns-font-weight",
     "body": "font-weight: $1;$0",
-    "description": "Sets the font weight of the matched view Possible values: bold, normal OR 100,200,300,400,500,600,700,800,900, where 400 is normal and 700 is bold (NOTE: Some fonts do not support all available variants)"
+    "description": "🔓 Supported CSS Properties\n\nSets the font weight of the matched view Possible values: bold, normal OR 100,200,300,400,500,600,700,800,900, where 400 is normal and 700 is bold (NOTE: Some fonts do not support all available variants)\n\n"
   },
   "{NSVue} textAlignment Style": {
     "prefix": "ns-text-align",
     "body": "text-align: $1;$0",
-    "description": "Sets text alignment in the matched view. Possible values: left , center, right."
+    "description": "🔓 Supported CSS Properties\n\nSets text alignment in the matched view. Possible values: left , center, right.\n\n"
   },
   "{NSVue} textDecoration Style": {
     "prefix": "ns-text-decoration",
     "body": "text-decoration: $1;$0",
-    "description": "Sets the text formatting. Possible values: none, line-through, underline."
+    "description": "🔓 Supported CSS Properties\n\nSets the text formatting. Possible values: none, line-through, underline.\n\n"
   },
   // "{NSVue} textTransform Style": {
   //   "prefix": "ns-text-transform",
   //   "body": "text-transform: $1;$0",
-  //   "description": "Sets the text transform. Possible values: none, capitalize, uppercase, lowercase."
+  //   "description": "🔓 Supported CSS Properties\n\nSets the text transform. Possible values: none, capitalize, uppercase, lowercase.\n\n"
   // },
   "{NSVue} letterSpacing Style": {
     "prefix": "ns-letter-spacing",
     "body": "letter-spacing: $1;$0",
-    "description": "Sets the text letter spacing. (On Android API Level 21 and above.)"
+    "description": "🔓 Supported CSS Properties\n\nSets the text letter spacing. (On Android API Level 21 and above.)\n\n"
   },
   "{NSVue} lineHeight Style": {
     "prefix": "ns-line-height",
     "body": "line-height: $1;$0",
-    "description": "Sets the text line height"
+    "description": "🔓 Supported CSS Properties\n\nSets the text line height\n\n"
   },
   "{NSVue} zIndex Style": {
     "prefix": "ns-z-index",
     "body": "z-index: $1;$0",
-    "description": "Sets the z-index. (On Android API Level 21 and above.)"
+    "description": "🔓 Supported CSS Properties\n\nSets the z-index. (On Android API Level 21 and above.)\n\n"
   },
   "{NSVue} clip-path Style": {
     "prefix": "ns-clip-path",
     "body": "clip-path: $1;$0",
-    "description": "Sets the clip-path. Supported shapes are circle, ellipse, rect and polygon. You can define your own shape using clippy"
+    "description": "🔓 Supported CSS Properties\n\nSets the clip-path. Supported shapes are circle, ellipse, rect and polygon. You can define your own shape using clippy\n\n"
   },
   "{NSVue} verticalAlignment Style": {
     "prefix": "ns-vertical-align",
     "body": "vertical-align: $1;$0",
-    "description": "Sets the vertical alignment of the current view within its parent. Possible values: top, center, bottom, stretch."
+    "description": "🔓 Supported CSS Properties\n\nSets the vertical alignment of the current view within its parent. Possible values: top, center, bottom, stretch.\n\n"
   },
   "{NSVue} horizontalAlignment Style": {
     "prefix": "ns-horizontal-align",
     "body": "horizontal-align: $1;$0",
-    "description": "Sets the horizontal alignment of the current view within its parent. Possible values: left, center, right, stretch."
+    "description": "🔓 Supported CSS Properties\n\nSets the horizontal alignment of the current view within its parent. Possible values: left, center, right, stretch.\n\n"
   },
   "{NSVue} margin Style": {
     "prefix": "ns-margin",
     "body": "margin: $1;$0",
-    "description": "Sets the margin of the view within its parent."
+    "description": "🔓 Supported CSS Properties\n\nSets the margin of the view within its parent.\n\n"
   },
   "{NSVue} marginTop Style": {
     "prefix": "ns-margin-top",
     "body": "margin-top: $1;$0",
-    "description": "Sets the top margin of the view within its parent."
+    "description": "🔓 Supported CSS Properties\n\nSets the top margin of the view within its parent.\n\n"
   },
   "{NSVue} marginRight Style": {
     "prefix": "ns-margin-right",
     "body": "margin-right: $1;$0",
-    "description": "Sets the right margin of the view within its parent."
+    "description": "🔓 Supported CSS Properties\n\nSets the right margin of the view within its parent.\n\n"
   },
   "{NSVue} marginBottom Style": {
     "prefix": "ns-margin-bottom",
     "body": "margin-bottom: $1;$0",
-    "description": "Sets the bottom margin of the view within its parent."
+    "description": "🔓 Supported CSS Properties\n\nSets the bottom margin of the view within its parent.\n\n"
   },
   "{NSVue} marginLeft Style": {
     "prefix": "ns-margin-left",
     "body": "margin-left: $1;$0",
-    "description": "Sets the left margin of the view within its parent."
+    "description": "🔓 Supported CSS Properties\n\nSets the left margin of the view within its parent.\n\n"
   },
   "{NSVue} width Style": {
     "prefix": "ns-width",
     "body": "width: $1;$0",
-    "description": "Sets the view width."
+    "description": "🔓 Supported CSS Properties\n\nSets the view width.\n\n"
   },
   "{NSVue} height Style": {
     "prefix": "ns-height",
     "body": "height: $1;$0",
-    "description": "Sets the view height."
+    "description": "🔓 Supported CSS Properties\n\nSets the view height.\n\n"
   },
   "{NSVue} minWidth Style": {
     "prefix": "ns-min-width",
     "body": "min-width: $1;$0",
-    "description": "Sets the minimal view width."
+    "description": "🔓 Supported CSS Properties\n\nSets the minimal view width.\n\n"
   },
   "{NSVue} minHeight Style": {
     "prefix": "ns-min-height",
     "body": "min-height: $1;$0",
-    "description": "Sets the minimal view height."
+    "description": "🔓 Supported CSS Properties\n\nSets the minimal view height.\n\n"
   },
   "{NSVue} padding Style": {
     "prefix": "ns-padding",
     "body": "padding: $1;$0",
-    "description": "Sets the distance between the boundaries of the layout container and its children."
+    "description": "🔓 Supported CSS Properties\n\nSets the distance between the boundaries of the layout container and its children.\n\n"
   },
   "{NSVue} paddingTop Style": {
     "prefix": "ns-padding-top",
     "body": "padding-top: $1;$0",
-    "description": "Sets the top padding of a layout container."
+    "description": "🔓 Supported CSS Properties\n\nSets the top padding of a layout container.\n\n"
   },
   "{NSVue} paddingRight Style": {
     "prefix": "ns-padding-right",
     "body": "padding-right: $1;$0",
-    "description": "Sets the right padding of a layout container."
+    "description": "🔓 Supported CSS Properties\n\nSets the right padding of a layout container.\n\n"
   },
   "{NSVue} paddingBottom Style": {
     "prefix": "ns-padding-bottom",
     "body": "padding-bottom: $1;$0",
-    "description": "Sets the bottom padding of a layout container."
+    "description": "🔓 Supported CSS Properties\n\nSets the bottom padding of a layout container.\n\n"
   },
   "{NSVue} paddingLeft Style": {
     "prefix": "ns-padding-left",
     "body": "padding-left: $1;$0",
-    "description": "Sets the left padding of a layout container."
+    "description": "🔓 Supported CSS Properties\n\nSets the left padding of a layout container.\n\n"
   },
   "{NSVue} visibility Style": {
     "prefix": "ns-visibility",
     "body": "visibility: $1;$0",
-    "description": "Sets the view visibility. Possible values: visible, collapse (or collapsed)."
+    "description": "🔓 Supported CSS Properties\n\nSets the view visibility. Possible values: visible, collapse (or collapsed).\n\n"
   },
   "{NSVue} opacity Style": {
     "prefix": "ns-opacity",
     "body": "opacity: $1;$0",
-    "description": "Sets the view opacity. The value is in the [0, 1] range."
+    "description": "🔓 Supported CSS Properties\n\nSets the view opacity. The value is in the [0, 1] range."
   }
 }

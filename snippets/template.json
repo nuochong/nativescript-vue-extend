@@ -479,6 +479,15 @@
     "prefix": "kbtype",
     "body": "keyboardType=\"email$1\"$0"
   },
+  // Platform-specific attributes
+  "{NSVue} ios Attribute": {
+    "prefix": "ios",
+    "body": "ios:style=\"$1\" $0"
+  },
+  "{NSVue} android Attribute": {
+    "prefix": "android",
+    "body": "android:style=\"$1\" $0"
+  },
   // Attributes New
   "{NSVue} Color Attribute": {
     "prefix": "color",

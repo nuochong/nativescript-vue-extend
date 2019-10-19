@@ -130,6 +130,8 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - swipe - `swipe`
 - touch - `touch`
 
+### Style Snippets
+
 #### 🔓 Supported CSS Properties - new
 
 - color - `color` - Sets a solid-color value to the matched view’s foreground.

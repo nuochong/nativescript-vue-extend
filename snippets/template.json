@@ -275,7 +275,7 @@
   "{NSVue} Repeater": {
     "prefix": "nsrepeater",
     "body": [
-      "<Repeater items=\"{{  }}\">",
+      "<Repeater :items=\"$1\">",
       "    <Repeater.itemsLayout>",
       "        <StackLayout />",
       "    </Repeater.itemsLayout>",
@@ -362,7 +362,7 @@
   "{NSVue} Text Field": {
     "prefix": "nstextfield",
     "body": [
-      "<TextField hint=\"$1\" text=\"{{ $2 }}\" />",
+      "<TextField hint=\"$1\" :text=\"$2\" />",
       "$0"
     ],
     "description": "⚙️ UI Snippets\n\n"
@@ -378,7 +378,7 @@
   "{NSVue} Editable TextView": {
     "prefix": "nstextview_editable",
     "body": [
-      "<TextView hint=\"$1\" text=\"{{ $2 }}\" editable=\"true\" />",
+      "<TextView hint=\"$1\" :text=\"$2\" editable=\"true\" />",
       "$0"
     ],
     "description": "⚙️ UI Snippets\n\n"
@@ -418,7 +418,7 @@
   "{NSVue} Slider": {
     "prefix": "nsslider",
     "body": [
-      "<Slider minValue=\"$1\" maxValue=\"$2\" value=\"{{ $3 }}\" />",
+      "<Slider minValue=\"$1\" maxValue=\"$2\" :value=\"$3\" />",
       "$0"
     ],
     "description": "⚙️ UI Snippets\n\n"
@@ -458,7 +458,7 @@
   "{NSVue} Segmented Bar": {
     "prefix": "nssegmentedbar",
     "body": [
-      "<SegmentedBar selectedIndex=\"{{ selectedIndex }}\" @selectedIndexChange=\"$1\">",
+      "<SegmentedBar :selectedIndex=\"selectedIndex\" @selectedIndexChange=\"$1\">",
       "  <SegmentedBarItem title=\"First\" />",
       "  <SegmentedBarItem title=\"Second\" />",
       "  <SegmentedBarItem title=\"Third\" />",

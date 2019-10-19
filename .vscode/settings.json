@@ -6,5 +6,6 @@
     "search.exclude": {
         "out": true // set this to false to include "out" folder in search results
     },
-    "commentTranslate.targetLanguage": "zh-CN"
+    "html.customData": ["./custom-data/html.html-data.json"],
+    "css.customData": ["./custom-data/css.css-data.json"]
 }

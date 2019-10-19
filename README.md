@@ -8,7 +8,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 
 ## Snippets Components key
 
-### Code Snippets
+### Code Snippets 🔩
 
 - Create a Vue instance - `nsvue`
 - HTTP Fetch example - `nsfetch`
@@ -18,7 +18,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - NSVue `launchEvent` block code - `nslaunchevent`
 - NSVue `$navigateTo(Component)` sentence - `nsnavigate`
 
-### UI Components
+### UI Components ⚙️
 
 #### Layouts
 

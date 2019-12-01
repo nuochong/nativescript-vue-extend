@@ -205,6 +205,10 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - `.ns-portrait`, `.ns-landscape`, `.ns-unknown` - classes that specify the application orientation
 - `.ns-modal` - a default CSS class is assigned to the root view of any modal view
 
+## Explorer Context Menu Page Creation
+
+Right-click on the folder and select "Add Vue File"
+
 ## How to use?
 
 1. Inside Visual Studio Code press

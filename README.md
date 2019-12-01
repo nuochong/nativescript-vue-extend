@@ -207,7 +207,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 
 ## Explorer Context Menu Page Creation
 
-Right-click on the folder and select "Add Vue File"
+Right-click the folder, select "Add Vue File", and enter the file name.
 
 ## How to use?
 

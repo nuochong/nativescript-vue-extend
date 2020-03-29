@@ -25,7 +25,7 @@
 #### 布局
 
 - Absolute 布局 - `nsabsolute`
-- Flexbox 布局 - `NSflex` - 新
+- Flexbox 布局 - `nsflex` - 新
 - Dock 布局 - `nsdock`
 - Grid 布局 - `nsgrid`
 - Stack 布局 - `nsstack`
@@ -41,10 +41,10 @@
 - Text View - `nstextview`
 - Image - `nsimg`
 - Border - `nsborder`
-- BottomNavigation - `NSBottomNav` - 新
-- TabStrip - `NSTabStrip` - 新
-- TabStripItem - `NSTabStripItem` - 新
-- TabContentItem - `NSTabContentItem` - 新
+- BottomNavigation - `nsbottomnav` - 新
+- TabStrip - `nstabstrip` - 新
+- TabStripItem - `nstabstripitem` - 新
+- TabContentItem - `nstabcontentitem` - 新
 - Button - `nsbtn`
 - Search Bar - `nssearchbar`
 - Switch - `nsswitch`
@@ -55,13 +55,13 @@
 - Time Picker - `nstime`
 - List Picker - `nslistpicker`
 - Segmented Bar - `nssegmentedbar`
-- Scroll View - `NSscrollview` - 新
+- Scroll View - `nsscrollview` - 新
 - Tab View - `nstabview`
 - List View - `nslistview`
 - Web View - `nswebview`
-- Repeater - `NSrepeater` - 新
-- Password Field - `NSpassword` - 新
-- Action Item - `NSactionItem` - 新
+- Repeater - `nsrepeater` - 新
+- Password Field - `nspassword` - 新
+- Action Item - `nsactionitem` - 新
 
 #### 属性
 

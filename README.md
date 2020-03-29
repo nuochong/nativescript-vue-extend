@@ -25,7 +25,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 #### Layouts
 
 - Absolute Layout - `nsabsolute`
-- Flexbox Layout - `NSflex` - new
+- Flexbox Layout - `nsflex` - new
 - Dock Layout - `nsdock`
 - Grid Layout - `nsgrid`
 - Stack Layout - `nsstack`
@@ -41,10 +41,10 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - Text View - `nstextview`
 - Image - `nsimg`
 - Border - `nsborder`
-- BottomNavigation - `NSBottomNav` - new
-- TabStrip - `NSTabStrip` - new
-- TabStripItem - `NSTabStripItem` - new
-- TabContentItem - `NSTabContentItem` - new
+- BottomNavigation - `nsbottomnav` - new
+- TabStrip - `nstabstrip` - new
+- TabStripItem - `nstabstripitem` - new
+- TabContentItem - `nstabcontentitem` - new
 - Button - `nsbtn`
 - Search Bar - `nssearchbar`
 - Switch - `nsswitch`
@@ -55,13 +55,13 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - Time Picker - `nstime`
 - List Picker - `nslistpicker`
 - Segmented Bar - `nssegmentedbar`
-- Scroll View - `NSscrollview` - new
+- Scroll View - `nsscrollview` - new
 - Tab View - `nstabview`
 - List View - `nslistview`
 - Web View - `nswebview`
-- Repeater - `NSrepeater` - new
-- Password Field - `NSpassword` - new
-- Action Item - `NSactionItem` - new
+- Repeater - `nsrepeater` - new
+- Password Field - `nspassword` - new
+- Action Item - `nsactionitem` - new
 
 #### Attributes
 

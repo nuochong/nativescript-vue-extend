@@ -12,20 +12,20 @@
 
 ### 🔩 代码段
 
-- 创建一个 Vue 实例 - `nsvue`
-- HTTP Fetch 示例 - `nsfetch`
-- `isIOS` 导入语句 - `nsisios`
-- `isAndroid` 导入语句 - `nsisandroid`
-- NSVue `app` 导入语句 - `nsapp`
-- NSVue `launchEvent` 区块码 - `nslaunchevent`
-- NSVue `$navigateTo(Component)` 语句 - `nsnavigate`
+- `nsvue` - 创建一个 Vue 实例
+- `nsfetch` - HTTP Fetch 示例
+- `nsisios` - `isIOS` 导入语句
+- `nsisandroid` - `isAndroid` 导入语句
+- `nsapp` - NSVue `app` 导入语句
+- `nslaunchevent` - NSVue `launchEvent` 区块码
+- `nsnavigate` - NSVue `$navigateTo(Component)` 语句
 
 ### ⚙️ UI 片段
 
 #### 布局
 
 - Absolute 布局 - `nsabsolute`
-- Flexbox 布局 - `NSflex` - new
+- Flexbox 布局 - `NSflex` - 新
 - Dock 布局 - `nsdock`
 - Grid 布局 - `nsgrid`
 - Stack 布局 - `nsstack`
@@ -41,10 +41,10 @@
 - Text View - `nstextview`
 - Image - `nsimg`
 - Border - `nsborder`
-- BottomNavigation - `NSBottomNav` - new
-- TabStrip - `NSTabStrip` - new
-- TabStripItem - `NSTabStripItem` - new
-- TabContentItem - `NSTabContentItem` - new
+- BottomNavigation - `NSBottomNav` - 新
+- TabStrip - `NSTabStrip` - 新
+- TabStripItem - `NSTabStripItem` - 新
+- TabContentItem - `NSTabContentItem` - 新
 - Button - `nsbtn`
 - Search Bar - `nssearchbar`
 - Switch - `nsswitch`
@@ -55,13 +55,13 @@
 - Time Picker - `nstime`
 - List Picker - `nslistpicker`
 - Segmented Bar - `nssegmentedbar`
-- Scroll View - `NSscrollview` - new
+- Scroll View - `NSscrollview` - 新
 - Tab View - `nstabview`
 - List View - `nslistview`
 - Web View - `nswebview`
-- Repeater - `NSrepeater` - new
-- Password Field - `NSpassword` - new
-- Action Item - `NSactionItem` - new
+- Repeater - `NSrepeater` - 新
+- Password Field - `NSpassword` - 新
+- Action Item - `NSactionItem` - 新
 
 #### 属性
 
@@ -81,8 +81,8 @@
 - borderWidth - `borderWidth`
 - translateX - `translateX`
 - translateY - `translateY`
-- scaleX - `scaleX` - new
-- scaleY - `scaleY` - new
+- scaleX - `scaleX` - 新
+- scaleY - `scaleY` - 新
 - margin - `margin`
 - opacity - `opacity`
 - style - `style`
@@ -123,7 +123,7 @@
 
 - tap - `tap`
 - @tap - `@tap`
-- @loaded - `@loaded` - new
+- @loaded - `@loaded` - 新
 - doubleTap - `doubleTap`
 - longPress - `longPress`
 - pan - `pan`
@@ -136,76 +136,76 @@
 
 #### 🔓 支持的 CSS 属性 - 新
 
-- color - `color` - Sets a solid-color value to the matched view’s foreground.
-- background - `background` - Sets a solid-color value or a linear gradient to the matched view’s background.
-- background-color - `backgroundColor` - Sets a solid-color value to the matched view’s background.
-- placeholder-color - `placeholderColor` - Sets the placeholder (hint) font color to matched views.
-- background-image - `backgroundImage` - Sets a image url to the matched view’s background image.
-- background-repeat - `backgroundRepeat` - Sets if/how the background image should be repeated. Possible values: repeat, repeat-x, repeat-y, no-repeat
-- background-position - `backgroundPosition` - Sets the starting position of the background image. You can set the position with absolute, percent or alignment values. More info here.
-- background-size - `backgroundSize` - Sets the size of the background image. Possible values: "length length", "percent% percent%", "cover" or "contain".
-- border-color - `borderColor` - Sets border colors to the matched view’s.
-- border-top-color - `borderTopColor` - Sets a top border color to the matched view’s.
-- border-right-color - `borderRightColor` - Sets a right border color to the matched view’s.
-- border-bottom-color - `borderBottomColor` - Sets a bottom border color to the matched view’s.
-- border-left-color - `borderLeftColor` - Sets a left border color to the matched view’s.
-- border-width - `borderWidth` - Sets border widths to the matched view’s.
-- border-top-width - `borderTopWidth` - Sets a top border width to the matched view’s.
-- border-right-width - `borderRightWidth` - Sets a right border width to the matched view’s.
-- border-bottom-width - `borderBottomWidth` - Sets a bottom border width to the matched view’s.
-- border-left-width - `borderLeftWidth` - Sets a left border width to the matched view’s.
-- border-radius - `borderRadius` - Sets a border radius to the matched view’s.
-- font - `font` - Sets the font properties (this includes font-family, font-size, font-style and font-weight) of the matched view.
-- font-family - `fontFamily` - Sets the font family of the matched view.
-- font-size - `fontSize` - Sets the font size of the matched view (only supports device-independent units).
-- font-style - `fontStyle` - Sets the font style of the matched view. Possible values: italic, normal.
-- font-weight - `fontWeight` - Sets the font weight of the matched view Possible values: bold, normal OR 100,200,300,400,500,600,700,800,900, where 400 is normal and 700 is bold (NOTE: Some fonts do not support all available variants)
-- text-align - `textAlignment` - Sets text alignment in the matched view. Possible values: left , center, right.
-- text-decoration - `textDecoration` - Sets the text formatting. Possible values: none, line-through, underline.
-- text-transform - `textTransform` - Sets the text transform. Possible values: none, capitalize, uppercase, lowercase.
-- letter-spacing - `letterSpacing` - Sets the text letter spacing. (On Android API Level 21 and above.)
-- line-height - `lineHeight` - Sets the text line height
-- z-index - `zIndex` - Sets the z-index. (On Android API Level 21 and above.)
-- clip-path - `clip-path` - Sets the clip-path. Supported shapes are circle, ellipse, rect and polygon. You can define your own shape using clippy
-- vertical-align - `verticalAlignment` - Sets the vertical alignment of the current view within its parent. Possible values: top, center, bottom, stretch.
-- horizontal-align - `horizontalAlignment` - Sets the horizontal alignment of the current view within its parent. Possible values: left, center, right, stretch.
-- margin - `margin` - Sets the margin of the view within its parent.
-- margin-top - `marginTop` - Sets the top margin of the view within its parent.
-- margin-right - `marginRight` - Sets the right margin of the view within its parent.
-- margin-bottom - `marginBottom` - Sets the bottom margin of the view within its parent.
-- margin-left - `marginLeft` - Sets the left margin of the view within its parent.
-- width - `width` - Sets the view width.
-- height - `height` - Sets the view height.
-- min-width - `minWidth` - Sets the minimal view width.
-- min-height- `minHeight` - Sets the minimal view height.
-- padding - `padding` - Sets the distance between the boundaries of the layout container and its children.
-- padding-top - `paddingTop` - Sets the top padding of a layout container.
-- padding-right - `paddingRight` - Sets the right padding of a layout container.
-- padding-bottom - `paddingBottom` - Sets the bottom padding of a layout container.
-- padding-left - `paddingLeft` - Sets the left padding of a layout container.
-- visibility - `visibility` - Sets the view visibility. Possible values: visible, collapse (or collapsed).
-- opacity - `opacity` - Sets the view opacity. The value is in the [0, 1] range.
+- color - `color` - 将单色值设置为匹配视图的前景。
+- background - `background` - 为匹配视图的背景设置纯色值或线性渐变。
+- background-color - `backgroundColor` - 为匹配视图的背景设置纯色值。
+- placeholder-color - `placeholderColor` - 将占位符（提示）字体颜色设置为匹配的视图。
+- background-image - `backgroundImage` - 将图片网址设置为匹配视图的背景图片。
+- background-repeat - `backgroundRepeat` - 设置是否/如何重复背景图像。 可能的值：repeat，repeat-x，repeat-y，no-repeat。
+- background-position - `backgroundPosition` - 设置背景图像的起始位置。 您可以使用绝对值，百分比或对齐值设置位置。 更多信息在这里。
+- background-size - `backgroundSize` - 设置背景图像的尺寸。 可能的值："length length", "percent% percent%", "cover" 或者 "contain"。
+- border-color - `borderColor` - 将边框颜色设置为匹配视图的颜色。
+- border-top-color - `borderTopColor` - 为匹配的视图设置顶部边框颜色。
+- border-right-color - `borderRightColor` - 为匹配的视图设置右边框颜色。
+- border-bottom-color - `borderBottomColor` - 将底部边框颜色设置为匹配视图的颜色。
+- border-left-color - `borderLeftColor` - 将左边框颜色设置为匹配视图的颜色。
+- border-width - `borderWidth` - 将边框宽度设置为匹配视图的宽度。
+- border-top-width - `borderTopWidth` - 将顶部边框宽度设置为匹配视图的宽度。
+- border-right-width - `borderRightWidth` - 为匹配的视图设置右边框宽度。
+- border-bottom-width - `borderBottomWidth` - 将底部边框宽度设置为匹配视图的宽度。
+- border-left-width - `borderLeftWidth` - 将左边框宽度设置为匹配视图的宽度。
+- border-radius - `borderRadius` - 将边框半径设置为匹配视图的边框。
+- font - `font` - 设置匹配视图的字体属性（包括字体系列，字体大小，字体样式和字体粗细）。
+- font-family - `fontFamily` - 设置匹配视图的字体系列。
+- font-size - `fontSize` - 设置匹配视图的字体大小（仅支持与设备无关的单元）。
+- font-style - `fontStyle` - 设置匹配视图的字体样式。 可能的值：斜体，正常。
+- font-weight - `fontWeight` - 设置匹配视图的字体粗细可能的值：粗体，普通或 100,200,300,400,500,600,700,800,900，其中 400 为普通，700 为粗体（注意：某些字体不支持所有可用的变体）。
+- text-align - `textAlignment` - 在匹配的视图中设置文本对齐方式。 可能的值：left，center，right。
+- text-decoration - `textDecoration` - 设置文本格式。 可能的值：无，直通，下划线。
+- text-transform - `textTransform` - 设置文本转换。 可能的值：无，大写，大写，小写。
+- letter-spacing - `letterSpacing` - 设置文本字母间距（在 Android API 级别 21 及更高版本上）。
+- line-height - `lineHeight` - 设置文字行高。
+- z-index - `zIndex` - 设置 z-index（在 Android API 级别 21 及更高版本上）。
+- clip-path - `clip-path` - 设置剪切路径。 支持的形状是圆形，椭圆形，矩形和多边形。 您可以使用 clippy 定义自己的形状。
+- vertical-align - `verticalAlignment` - 设置当前视图在其父视图中的垂直对齐方式。 可能的值：上，中，下，拉伸。
+- horizontal-align - `horizontalAlignment` - 设置当前视图在其父视图中的水平对齐方式。 可能的值：左，中，右，拉伸。
+- margin - `margin` - 在其父级中设置视图的边距。
+- margin-top - `marginTop` - 设置其父视图内的上边距。
+- margin-right - `marginRight` - 设置视图在其父视图中的右边距。
+- margin-bottom - `marginBottom` - 设置视图在其父视图中的底边距。
+- margin-left - `marginLeft` - 设置视图在其父视图中的左边界。
+- width - `width` - 设置视图宽度。
+- height - `height` - 设置视图高度。
+- min-width - `minWidth` - 设置最小视图宽度。
+- min-height- `minHeight` - 设置最小视图高度。
+- padding - `padding` - 设置布局容器及其子项的边界之间的距离。
+- padding-top - `paddingTop` - 设置布局容器的顶部填充。
+- padding-right - `paddingRight` - 设置布局容器的正确填充。
+- padding-bottom - `paddingBottom` - 设置布局容器的底部填充。
+- padding-left - `paddingLeft` - 设置布局容器的左填充。
+- visibility - `visibility` - 设置视图可见性。 可能的值：可见，折叠（或折叠）。
+- opacity - `opacity` - 设置视图不透明度。 该值在[0，1]范围内。
 
 #### 🔒 NativeScript 特定的 CSS 属性 - 新
 
-- tab-text-color - `tabTextColor` - Sets the text color of the tabs titles.
-- selected-tab-text-color - `selectedTabTextColor` - Sets the color of the text, while selecting some of the tabs.
-- tab-background-color - `tabBackgroundColor` - Sets the background color of the tabs.
-- tab-text-font-size - `tabTextFontSize` - Sets the tab titles font size, without changing the font size of all contents of the tab.
-- text-transform - `textTransform` - Item Sets the text transform individually for every TabViewItem. Value options: capitalize, lowercase, none, and uppercase.
-- android-selected-tab-highlight-color - `androidSelectedTabHighlightColor` - Sets the underline color of the tabs in Android.
-- android-elevation - `androidElevation` - Sets the elevation of the View in Android.
-- android-dynamic-elevation-offset - `androidDynamicElevationOffset` - Sets the elevation of the View in Android, which will be shown when an action was performed(e.g. tap, touch).
-- off-background-color - `offBackgroundColor` - Sets the background color of the Switch when it is turned off.
-- highlight-color - `highlightColor` - Gets or sets the underline color of the selected TabStripItem.
+- tab-text-color - `tabTextColor` - 设置标签标题的文本颜色。
+- selected-tab-text-color - `selectedTabTextColor` - 选择某些选项卡时，设置文本的颜色。
+- tab-background-color - `tabBackgroundColor` - 设置选项卡的背景色。
+- tab-text-font-size - `tabTextFontSize` - 设置选项卡标题的字体大小，而不更改选项卡所有内容的字体大小。
+- text-transform - `textTransform` - 项目为每个 TabViewItem 分别设置文本转换。 值选项：大写，小写，无和大写。
+- android-selected-tab-highlight-color - `androidSelectedTabHighlightColor` - 设置 Android 中标签的下划线颜色。
+- android-elevation - `androidElevation` - 设置 Android 中视图的高程。
+- android-dynamic-elevation-offset - `androidDynamicElevationOffset` - 设置 Android 中视图的高程，将在执行某项操作（例如点击，触摸）时显示。
+- off-background-color - `offBackgroundColor` - 设置开关关闭时的背景色。
+- highlight-color - `highlightColor` - 获取或设置所选 TabStripItem 的下划线颜色。
 
 #### 🔐 根视图 CSS 类 - 新
 
-- `.ns-root` - a default class
-- `.ns-android`, `.ns-ios` - classes that specify the application platform
-- `.ns-phone`, `.ns-tablet` - classes that specify the device type
-- `.ns-portrait`, `.ns-landscape`, `.ns-unknown` - classes that specify the application orientation
-- `.ns-modal` - a default CSS class is assigned to the root view of any modal view
+- `.ns-root` - 默认类。
+- `.ns-android`, `.ns-ios` - 指定应用程序平台的类。
+- `.ns-phone`, `.ns-tablet` - 指定设备类型的类。
+- `.ns-portrait`, `.ns-landscape`, `.ns-unknown` - 指定应用程序方向的类。
+- `.ns-modal` - 默认 CSS 类分配给任何模式视图的根视图。
 
 ## 资源管理器上下文菜单页面创建
 

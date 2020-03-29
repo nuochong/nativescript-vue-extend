@@ -12,13 +12,13 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 
 ### 🔩 Code Snippets
 
-- Create a Vue instance - `nsvue`
-- HTTP Fetch example - `nsfetch`
-- `isIOS` import sentence - `nsisios`
-- `isAndroid` import sentence - `nsisandroid`
-- NSVue `app` import sentence - `nsapp`
-- NSVue `launchEvent` block code - `nslaunchevent`
-- NSVue `$navigateTo(Component)` sentence - `nsnavigate`
+- `nsvue` - Create a Vue instance
+- `nsfetch` - HTTP Fetch example
+- `nsisios` - `isIOS` import sentence
+- `nsisandroid` - `isAndroid` import sentence
+- `nsapp` - NSVue `app` import sentence
+- `nslaunchevent` - NSVue `launchEvent` block code
+- `nsnavigate` - NSVue `$navigateTo(Component)` sentence
 
 ### ⚙️ UI Snippets
 
@@ -159,14 +159,14 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - font-family - `fontFamily` - Sets the font family of the matched view.
 - font-size - `fontSize` - Sets the font size of the matched view (only supports device-independent units).
 - font-style - `fontStyle` - Sets the font style of the matched view. Possible values: italic, normal.
-- font-weight - `fontWeight` - Sets the font weight of the matched view Possible values: bold, normal OR 100,200,300,400,500,600,700,800,900, where 400 is normal and 700 is bold (NOTE: Some fonts do not support all available variants)
+- font-weight - `fontWeight` - Sets the font weight of the matched view Possible values: bold, normal OR 100,200,300,400,500,600,700,800,900, where 400 is normal and 700 is bold (NOTE: Some fonts do not support all available variants).
 - text-align - `textAlignment` - Sets text alignment in the matched view. Possible values: left , center, right.
 - text-decoration - `textDecoration` - Sets the text formatting. Possible values: none, line-through, underline.
 - text-transform - `textTransform` - Sets the text transform. Possible values: none, capitalize, uppercase, lowercase.
-- letter-spacing - `letterSpacing` - Sets the text letter spacing. (On Android API Level 21 and above.)
-- line-height - `lineHeight` - Sets the text line height
-- z-index - `zIndex` - Sets the z-index. (On Android API Level 21 and above.)
-- clip-path - `clip-path` - Sets the clip-path. Supported shapes are circle, ellipse, rect and polygon. You can define your own shape using clippy
+- letter-spacing - `letterSpacing` - Sets the text letter spacing(On Android API Level 21 and above).
+- line-height - `lineHeight` - Sets the text line height.
+- z-index - `zIndex` - Sets the z-index(On Android API Level 21 and above).
+- clip-path - `clip-path` - Sets the clip-path. Supported shapes are circle, ellipse, rect and polygon. You can define your own shape using clippy.
 - vertical-align - `verticalAlignment` - Sets the vertical alignment of the current view within its parent. Possible values: top, center, bottom, stretch.
 - horizontal-align - `horizontalAlignment` - Sets the horizontal alignment of the current view within its parent. Possible values: left, center, right, stretch.
 - margin - `margin` - Sets the margin of the view within its parent.
@@ -201,11 +201,11 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 
 #### 🔐 Root Views CSS Classes - new
 
-- `.ns-root` - a default class
-- `.ns-android`, `.ns-ios` - classes that specify the application platform
-- `.ns-phone`, `.ns-tablet` - classes that specify the device type
-- `.ns-portrait`, `.ns-landscape`, `.ns-unknown` - classes that specify the application orientation
-- `.ns-modal` - a default CSS class is assigned to the root view of any modal view
+- `.ns-root` - a default class.
+- `.ns-android`, `.ns-ios` - classes that specify the application platform.
+- `.ns-phone`, `.ns-tablet` - classes that specify the device type.
+- `.ns-portrait`, `.ns-landscape`, `.ns-unknown` - classes that specify the application orientation.
+- `.ns-modal` - a default CSS class is assigned to the root view of any modal view.
 
 ## Explorer Context Menu Page Creation
 

@@ -1,7 +1,7 @@
 {
   // Action Bar
   "{NSVue} Action Bar": {
-    "prefix": "nsactionbar",
+    "prefix": "NSActionBar",
     "body": [
       "<ActionBar title=\"${1:Title}\" icon=\"\">",
       "  <NavigationButton text=\"Back\" android.systemIcon=\"ic_menu_back\" @tap=\"${2:goBack}\" />",
@@ -13,7 +13,7 @@
   },
   // Layouts
   "{NSVue} Stack Layout": {
-    "prefix": "nsstack",
+    "prefix": "NSStack",
     "body": [
       "<StackLayout>",
       "  $0",
@@ -22,7 +22,7 @@
     "description": "⚙️ UI Snippets\n\nThe StackLayout stacks its child elements below or beside each other, depending on its orientation. It is very useful to create lists.\n\n"
   },
   "{NSVue} Flexbox Layout": {
-    "prefix": "nsflex",
+    "prefix": "NSFlex",
     "body": [
       "<FlexboxLayout>",
       "  $0",
@@ -31,7 +31,7 @@
     "description": "⚙️ UI Snippets\n\nThe FlexboxLayout is a non-conforming implementation of the CSS Flexible Box Layout based on an existing Apache-2 licensed flexbox implementation hosted on github.com/google/flexbox-layout.\n\n"
   },
   "{NSVue} Stack Layout Horizontal": {
-    "prefix": "nsstack_horizontal",
+    "prefix": "NSStack_horizontal",
     "body": [
       "<StackLayout orientation=\"horizontal\">",
       "  $0",
@@ -40,7 +40,7 @@
     "description": "⚙️ UI Snippets\n\nThe StackLayout stacks its child elements below or beside each other, depending on its orientation. It is very useful to create lists.\n\n"
   },
   "{NSVue} Wrap Layout": {
-    "prefix": "nswrap",
+    "prefix": "NSWrap",
     "body": [
       "<WrapLayout orientation=\"horizontal\" itemWidth=\"$1\" itemHeight=\"$2\">",
       "  $3",
@@ -49,7 +49,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Absolute Layout": {
-    "prefix": "nsabsolute",
+    "prefix": "NSAbsolute",
     "body": [
       "<AbsoluteLayout>",
       "  <Label text=\"This is Label 1\" top=\"\"  right=\"\" bottom=\"\" left=\"\" />",
@@ -59,7 +59,7 @@
     "description": "⚙️ UI Snippets\n\nThe AbsoluteLayout is the simplest layout in NativeScript. It uses absolute left-top coordinates to position its children. The AbsoluteLayout will not enforce any layout coNStraints on its children and will not resize them at runtime when its size changes\n\n"
   },
   "{NSVue} Dock Layout": {
-    "prefix": "nsdock",
+    "prefix": "NSDock",
     "body": [
       "<DockLayout stretchLastChild=\"true\">",
       "  <Label dock=\"top\" text=\"I am on top!\"/>",
@@ -68,7 +68,7 @@
     "description": "⚙️ UI Snippets\n\nThe DockLayout is a layout that provides a docking mechanism for child elements to the left, right, top, bottom or center of the layout. To define the docking side of a child element, use its dock property. To dock a child element to the center of the DockLayout, it must be the last child of the DockLayout and the stretchLastChild property of the DockLayout must be set to true.\n\n"
   },
   "{NSVue} Grid Layout": {
-    "prefix": "nsgrid",
+    "prefix": "NSGrid",
     "body": [
       "<GridLayout rows=\"$1\" columns=\"$2\">",
       "  $3",
@@ -77,7 +77,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Grid Layout 2x2": {
-    "prefix": "nsgrid_2x2",
+    "prefix": "NSGrid_2x2",
     "body": [
       "<GridLayout rows=\"*, *\" columns=\"*, *\">",
       "  <Label text=\"0, 0\" row=\"0\" col=\"0\" />",
@@ -89,7 +89,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Grid Layout 2x2 Automatic Width/Height": {
-    "prefix": "nsgrid_2x2_auto",
+    "prefix": "NSGrid_2x2_auto",
     "body": [
       "<GridLayout rows=\"auto, auto\" columns=\"auto, auto\">",
       "  <Label text=\"0, 0\" row=\"0\" col=\"0\" />",
@@ -101,7 +101,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Grid Layout 3x3 ": {
-    "prefix": "nsgrid_3x3",
+    "prefix": "NSGrid_3x3",
     "body": [
       "<GridLayout rows=\"*, *, *\" columns=\"*, *, *\">",
       "  <Label text=\"0, 0\" row=\"0\" col=\"0\" />",
@@ -118,7 +118,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Grid Layout 3x3 Automatic Width/Height": {
-    "prefix": "nsgrid_3x3_auto",
+    "prefix": "NSGrid_3x3_auto",
     "body": [
       "<GridLayout rows=\"auto, auto, auto\" columns=\"auto, auto, auto\">",
       "  <Label text=\"0, 0\" row=\"0\" col=\"0\" />",
@@ -135,7 +135,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Grid Layout 4x3 ": {
-    "prefix": "nsgrid_4x3",
+    "prefix": "NSGrid_4x3",
     "body": [
       "<GridLayout rows=\"*, *, *, *\" columns=\"*, *, *\">",
       "  <Label text=\"0, 0\" row=\"0\" col=\"0\" />",
@@ -155,7 +155,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Grid Layout 4x3 Automatic Width/Height": {
-    "prefix": "nsgrid_4x3_auto",
+    "prefix": "NSGrid_4x3_auto",
     "body": [
       "<GridLayout rows=\"auto, auto, auto, auto\" columns=\"auto, auto, auto\">",
       "  <Label text=\"0, 0\" row=\"0\" col=\"0\" />",
@@ -175,7 +175,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Grid Layout 4x4": {
-    "prefix": "nsgrid_4x4",
+    "prefix": "NSGrid_4x4",
     "body": [
       "<GridLayout rows=\"*, *, *, *\" columns=\"*, *, *, *\">",
       "  <Label text=\"0, 0\" row=\"0\" col=\"0\" />",
@@ -199,7 +199,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Grid Layout 4x4 Automatic Width/Height": {
-    "prefix": "nsgrid_4x4_auto",
+    "prefix": "NSGrid_4x4_auto",
     "body": [
       "<GridLayout rows=\"auto, auto, auto, auto\" columns=\"auto, auto, auto, auto\">",
       "  <Label text=\"0, 0\" row=\"0\" col=\"0\" />",
@@ -224,7 +224,7 @@
   },
   // Views
   "{NSVue} Scroll View": {
-    "prefix": "nsscrollview",
+    "prefix": "NSScrollView",
     "body": [
       "<ScrollView>",
       "  $0",
@@ -233,7 +233,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} List View": {
-    "prefix": "nslistview",
+    "prefix": "NSListView",
     "body": [
       "<ListView for=\"item in ${1:items}\" @itemTap=\"onItemTap\">",
       "  <v-template>",
@@ -246,7 +246,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Tab View": {
-    "prefix": "nstabview",
+    "prefix": "NSTabView",
     "body": [
       "<TabView :selectedIndex=\"${1:tabIndex}\">",
       "  <TabViewItem title=\"${2:Tab1}\">",
@@ -265,7 +265,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Web View": {
-    "prefix": "nswebview",
+    "prefix": "NSWebView",
     "body": [
       "<WebView :src=\"someUrl | pathToLocalFile | htmlString\" />",
       "$0"
@@ -273,7 +273,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Repeater": {
-    "prefix": "nsrepeater",
+    "prefix": "NSRepeater",
     "body": [
       "<Repeater :items=\"$1\">",
       "    <Repeater.itemsLayout>",
@@ -288,7 +288,7 @@
   },
   // Widgets
   "{NSVue} Page": {
-    "prefix": "nspage",
+    "prefix": "NSPage",
     "body": [
       "<Page>",
       "  $0",
@@ -297,7 +297,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Image": {
-    "prefix": "nsimg",
+    "prefix": "NSImg",
     "body": [
       "<Image :src=\"$1\" stretch=\"none\" />",
       "$0"
@@ -305,7 +305,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} BottomNavigation": {
-    "prefix": "nsbottomnav",
+    "prefix": "NSBottomNav",
     "body": [
       "<BottomNavigation selectedIndex=\"1\">",
       "  $0",
@@ -315,7 +315,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} TabStrip": {
-    "prefix": "nstabstrip",
+    "prefix": "NSTabStrip",
     "body": [
       "<TabStrip>",
       "  $0",
@@ -325,7 +325,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} TabStripItem": {
-    "prefix": "nstabstripitem",
+    "prefix": "NSTabStripItem",
     "body": [
       "<TabStripItem>",
       "<Label text=\"Home\"/>",
@@ -335,7 +335,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} TabContentItem": {
-    "prefix": "nstabcontentitem",
+    "prefix": "NSTabContentItem",
     "body": [
       "<TabContentItem>",
       "  $0",
@@ -344,7 +344,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Label": {
-    "prefix": "nslabel",
+    "prefix": "NSLabel",
     "body": [
       "<Label text=\"$1\" textWrap=\"true\" />",
       "$0"
@@ -352,7 +352,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Button": {
-    "prefix": "nsbtn",
+    "prefix": "NSBtn",
     "body": [
       "<Button text=\"$1\" @tap=\"$2\" />",
       "$0"
@@ -360,7 +360,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Text Field": {
-    "prefix": "nstextfield",
+    "prefix": "NSTextField",
     "body": [
       "<TextField hint=\"$1\" :text=\"$2\" />",
       "$0"
@@ -368,7 +368,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Password Field": {
-    "prefix": "nspassword",
+    "prefix": "NSPassword",
     "body": [
       "<TextField hint=\"Enter your password.\" text=\"${1:Password}\" secure=\"true\" />",
       "$0"
@@ -376,7 +376,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Editable TextView": {
-    "prefix": "nstextview_editable",
+    "prefix": "NSTextView_editable",
     "body": [
       "<TextView hint=\"$1\" :text=\"$2\" editable=\"true\" />",
       "$0"
@@ -384,7 +384,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Non-Editable TextView": {
-    "prefix": "nstextview_non-editable",
+    "prefix": "NSTextView_non-editable",
     "body": [
       "<TextView text=\"$1\" editable=\"false\" />",
       "$0"
@@ -392,7 +392,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} SearchBar": {
-    "prefix": "nssearchbar",
+    "prefix": "NSSearchBar",
     "body": [
       "<SearchBar id=\"${1:searchBar}\" hint=\"${2:Search}\" text=\"$3\" clear=\"${4:onClear}\" submit=\"${5:onSubmit}\" />",
       "$6"
@@ -400,7 +400,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Switch": {
-    "prefix": "nsswitch",
+    "prefix": "NSSwitch",
     "body": [
       "<Switch checked=\"$1\" />",
       "$0"
@@ -408,7 +408,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Progress Bar": {
-    "prefix": "nsprogress",
+    "prefix": "NSProgress",
     "body": [
       "<Progress value=\"$1\" />",
       "$0"
@@ -416,7 +416,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Slider": {
-    "prefix": "nsslider",
+    "prefix": "NSSlider",
     "body": [
       "<Slider minValue=\"$1\" maxValue=\"$2\" :value=\"$3\" />",
       "$0"
@@ -424,7 +424,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Date Picker": {
-    "prefix": "nsdate",
+    "prefix": "NSDate",
     "body": [
       "<DatePicker day=\"$1\" month=\"$2\" year=\"$3\"></DatePicker>",
       "$0"
@@ -432,7 +432,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Time Picker": {
-    "prefix": "nstime",
+    "prefix": "NSTime",
     "body": [
       "<TimePicker hour=\"$1\" minute=\"$2\"></TimePicker>",
       "$0"
@@ -440,7 +440,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} List Picker": {
-    "prefix": "nslistpicker",
+    "prefix": "NSListPicker",
     "body": [
       "<ListPicker items=\"$1\" selectedIndex=\"$2\"></ListPicker>",
       "$0"
@@ -448,7 +448,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Activity Indicator": {
-    "prefix": "nsloading",
+    "prefix": "NSLoading",
     "body": [
       "<ActivityIndicator width=\"100\" height=\"100\" busy=\"$1\" />",
       "$0"
@@ -456,7 +456,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Segmented Bar": {
-    "prefix": "nssegmentedbar",
+    "prefix": "NSSegmentedBar",
     "body": [
       "<SegmentedBar :selectedIndex=\"selectedIndex\" @selectedIndexChange=\"$1\">",
       "  <SegmentedBarItem title=\"First\" />",
@@ -468,7 +468,7 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Border": {
-    "prefix": "nsborder",
+    "prefix": "NSBorder",
     "body": [
       "<Border borderRadius=\"$1\" borderWidth=\"$2\" borderColor=\"#000000\">",
       "  $0",
@@ -477,14 +477,14 @@
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Action Item": {
-    "prefix": "nsactionitem",
+    "prefix": "NSActionItem",
     "body": [
       "<ActionItem tap=\"$0\"/>"
     ],
     "description": "⚙️ UI Snippets\n\n"
   },
   "{NSVue} Navigation button": {
-    "prefix": "nsnavigationbtn",
+    "prefix": "NSNavigationBtn",
     "body": [
       "<NavigationButton text=\"Go Back\" tap=\"onNavBtnTap\"/>"
     ],

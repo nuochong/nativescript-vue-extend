@@ -1,35 +1,35 @@
 # nativescript-vue-extend
 
-vscode extension with useful snippets for developing NativeScript-Vue mobile applications.
+带有有用代码段的 vscode 扩展，用于开发 NativeScript-Vue 移动应用程序。
 
-Based on the **NativeScript XML Snippets** extension, but adapted to the Vue binding and added other snippets not related to the XML templating system.
+基于 **NativeScript XML Snippets** 扩展，但适用于 Vue 绑定，并添加了其他与 XML 模板系统无关的代码片段。
 
-All snippets are prefixed with `ns`. Attributes do not have a prefix.
+所有代码片段均以`ns`作为前缀。 属性没有前缀。
 
-## Snippets Components key
+## 片段组件键
 
-### 🔩 Code Snippets
+### 🔩 代码段
 
-- Create a Vue instance - `nsvue`
-- HTTP Fetch example - `nsfetch`
-- `isIOS` import sentence - `nsisios`
-- `isAndroid` import sentence - `nsisandroid`
-- NSVue `app` import sentence - `nsapp`
-- NSVue `launchEvent` block code - `nslaunchevent`
-- NSVue `$navigateTo(Component)` sentence - `nsnavigate`
+- 创建一个 Vue 实例 - `nsvue`
+- HTTP Fetch 示例 - `nsfetch`
+- `isIOS` 导入语句 - `nsisios`
+- `isAndroid` 导入语句 - `nsisandroid`
+- NSVue `app` 导入语句 - `nsapp`
+- NSVue `launchEvent` 区块码 - `nslaunchevent`
+- NSVue `$navigateTo(Component)` 语句 - `nsnavigate`
 
-### ⚙️ UI Snippets
+### ⚙️ UI 片段
 
-#### Layouts
+#### 布局
 
-- Absolute Layout - `nsabsolute`
-- Flexbox Layout - `NSflex` - new
-- Dock Layout - `nsdock`
-- Grid Layout - `nsgrid`
-- Stack Layout - `nsstack`
-- Wrap Layout - `nswrap`
+- Absolute 布局 - `nsabsolute`
+- Flexbox 布局 - `NSflex` - new
+- Dock 布局 - `nsdock`
+- Grid 布局 - `nsgrid`
+- Stack 布局 - `nsstack`
+- Wrap 布局 - `nswrap`
 
-#### Widgets
+#### 小部件
 
 - Page - `nspage`
 - Action Bar - `nsactionbar`
@@ -61,7 +61,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - Password Field - `NSpassword` - new
 - Action Item - `NSactionItem` - new
 
-#### Attributes
+#### 属性
 
 - icon - `icon`
 - textWrap - `wrap`
@@ -71,7 +71,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - stretch - `stretch`
 - keyboardType - `kbtype`
 
-#### Attributes - new
+#### 属性 - 新
 
 - backgroundColor - `bgColor`
 - backgroundImage - `bgImage`
@@ -117,7 +117,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - alignSelf - `alignSelf`
 - flexWrapBefore - `flexWrapBefore`
 
-#### Gestures Attributes - new
+#### 手势属性 - 新
 
 - tap - `tap`
 - @tap - `@tap`
@@ -130,9 +130,9 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - swipe - `swipe`
 - touch - `touch`
 
-### Style Snippets
+### 样式片段
 
-#### 🔓 Supported CSS Properties - new
+#### 🔓 支持的 CSS 属性 - 新
 
 - color - `color` - Sets a solid-color value to the matched view’s foreground.
 - background - `background` - Sets a solid-color value or a linear gradient to the matched view’s background.
@@ -184,7 +184,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - visibility - `visibility` - Sets the view visibility. Possible values: visible, collapse (or collapsed).
 - opacity - `opacity` - Sets the view opacity. The value is in the [0, 1] range.
 
-#### 🔒 NativeScript Specific CSS Properties - new
+#### 🔒 NativeScript 特定的 CSS 属性 - 新
 
 - tab-text-color - `tabTextColor` - Sets the text color of the tabs titles.
 - selected-tab-text-color - `selectedTabTextColor` - Sets the color of the text, while selecting some of the tabs.
@@ -197,7 +197,7 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - off-background-color - `offBackgroundColor` - Sets the background color of the Switch when it is turned off.
 - highlight-color - `highlightColor` - Gets or sets the underline color of the selected TabStripItem.
 
-#### 🔐 Root Views CSS Classes - new
+#### 🔐 根视图 CSS 类 - 新
 
 - `.ns-root` - a default class
 - `.ns-android`, `.ns-ios` - classes that specify the application platform
@@ -205,22 +205,22 @@ All snippets are prefixed with `ns`. Attributes do not have a prefix.
 - `.ns-portrait`, `.ns-landscape`, `.ns-unknown` - classes that specify the application orientation
 - `.ns-modal` - a default CSS class is assigned to the root view of any modal view
 
-## Explorer Context Menu Page Creation
+## 资源管理器上下文菜单页面创建
 
-Right-click the folder, select "Add Vue File", and enter the file name.
+右键单击该文件夹，选择“添加 Vue 文件”，然后输入文件名。
 
-## How to install?
+## 如何安装?
 
-1. Inside Visual Studio Code press
+1. 在 Visual Studio Code 中按下
 
 ```bash
 CTRL + P
 ```
 
-2. Type the following in the console window
+2. 在控制台窗口中键入以下内容
 
 ```bash
 ext install nativescript-vue-extend
 ```
 
-3. Hit enter.
+3. 按回车。

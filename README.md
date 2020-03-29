@@ -1,3 +1,5 @@
+[English](./README.md) | [简体中文](./README.zh-CN.md)
+
 # nativescript-vue-extend
 
 vscode extension with useful snippets for developing NativeScript-Vue mobile applications.

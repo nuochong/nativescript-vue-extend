@@ -1,3 +1,5 @@
+[English](./README.md) | [简体中文](./README.zh-CN.md)
+
 # nativescript-vue-extend
 
 带有有用代码段的 vscode 扩展，用于开发 NativeScript-Vue 移动应用程序。

@@ -2,7 +2,7 @@
   "name": "nativescript-vue-extend",
   "displayName": "NativeScript Vue Extend",
   "description": "Snippets for NativeScript Vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "nuochong",
   "icon": "img/logo.png",
   "engines": {

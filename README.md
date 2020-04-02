@@ -213,7 +213,7 @@ Right-click the folder, select "Add Vue File", and enter the file name.
 
 ## Video Example
 
-[Video Example](https://nativescript-vue-examples.luzhaoyang.com/tools/nativescript-vue-extend/nativescript-vue-extend-video/nativescript-vue-extend-video-en.html)
+See [Video Example](https://nativescript-vue-examples.luzhaoyang.com/tools/nativescript-vue-extend/nativescript-vue-extend-video/nativescript-vue-extend-video-en.html)
 
 ## How to install?
 

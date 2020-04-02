@@ -211,6 +211,10 @@
 
 右键单击该文件夹，选择“添加 Vue 文件”，然后输入文件名。
 
+## 视频示例
+
+[视频示例](https://nativescript-vue-examples.luzhaoyang.com/tools/nativescript-vue-extend/nativescript-vue-extend-video/nativescript-vue-extend-video-zh.html)
+
 ## 如何安装?
 
 1. 在 Visual Studio Code 中按下
